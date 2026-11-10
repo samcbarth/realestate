@@ -1,0 +1,1367 @@
+{
+ "note": "Official facts only. Every county lists sources and a last_checked date. Do not add auction dates or data from the paid TX/OK directory.",
+ "state_rules": {
+  "Texas": {
+   "lead": "Texas sets the sale rules statewide, so they are the same in every county:",
+   "items": [
+    "Mortgage foreclosures are usually nonjudicial trustee sales. Notice must be posted at the courthouse and filed with the county clerk at least 21 days before the sale (Property Code 51.002). <a href=\"/guides/texas/foreclosure/\">Texas foreclosure guide</a>",
+    "Sales are held on the first Tuesday of the month between 10 a.m. and 4 p.m. at the courthouse or an area the commissioners court designates, or online if the county authorizes it.",
+    "Tax sales follow a court judgment or tax warrant and are run by the sheriff or a constable. Homestead and ag property can be redeemed for 2 years, other property for 180 days (Tax Code 34.21). <a href=\"/guides/texas/tax-sales/\">Texas tax sale guide</a>"
+   ],
+   "sources": [
+    [
+     "Texas Property Code, Chapter 51",
+     "https://statutes.capitol.texas.gov/Docs/PR/htm/PR.51.htm"
+    ],
+    [
+     "Texas Tax Code, Chapter 34",
+     "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.34.htm"
+    ]
+   ]
+  },
+  "Oklahoma": {
+   "lead": "Oklahoma sets these rules statewide; each county's treasurer, sheriff and district court carry them out:",
+   "items": [
+    "Land with taxes unpaid 3 or more years is sold at the county treasurer's resale on the second Monday of June (68 O.S. 3105, 3125). <a href=\"/guides/oklahoma/tax-sales/\">Oklahoma tax sale guide</a>",
+    "Mortgage foreclosures usually go through district court and end in a sheriff's sale held at least 30 days after the first published notice (12 O.S. 764). <a href=\"/guides/oklahoma/foreclosure/\">Oklahoma foreclosure guide</a>",
+    "Unless appraisal was waived, sheriff's sale bids must reach two-thirds of the appraised value, and the court must confirm the sale. <a href=\"/guides/oklahoma/sheriff-sales/\">Oklahoma sheriff sale guide</a>"
+   ],
+   "sources": [
+    [
+     "Oklahoma Statutes 68 O.S. 3125 (via Justia)",
+     "https://law.justia.com/codes/oklahoma/title-68/section-68-3125/"
+    ],
+    [
+     "Oklahoma Statutes 12 O.S. 764 (via Justia)",
+     "https://law.justia.com/codes/oklahoma/title-12/section-12-764/"
+    ]
+   ]
+  }
+ },
+ "counties": [
+  {
+   "name": "Harris County",
+   "slug": "harris",
+   "state": "Texas",
+   "abbr": "TX",
+   "seat": "Houston",
+   "pop2025": 5045026,
+   "pop2020base": 4730408,
+   "answer": "Harris County is a Texas county with an estimated 5,045,026 residents (Census Bureau, July 1, 2025); its county seat is Houston. Like every Texas county, it holds foreclosure and tax sales on the first Tuesday of the month between 10 a.m. and 4 p.m. Property values come from the appraisal district, and foreclosure notices are filed with the county clerk.",
+   "facts": [
+    [
+     "County seat",
+     "Houston"
+    ],
+    [
+     "Population, July 1, 2025 (Census estimate)",
+     "5,045,026"
+    ],
+    [
+     "Population, April 1, 2020 (estimates base)",
+     "4,730,408"
+    ],
+    [
+     "Change since 2020",
+     "+6.7%"
+    ],
+    [
+     "Property values set by",
+     "The county appraisal district (linked below)"
+    ],
+    [
+     "Foreclosure and tax sale day (state law)",
+     "First Tuesday of the month, 10 a.m. to 4 p.m. (first Wednesday if that Tuesday is Jan. 1 or July 4)"
+    ]
+   ],
+   "links": [
+    [
+     "Harris County official website",
+     "https://www.harriscountytx.gov/"
+    ],
+    [
+     "Harris Central Appraisal District",
+     "https://hcad.org/"
+    ],
+    [
+     "Harris County Tax Assessor-Collector",
+     "https://www.hctax.net/"
+    ],
+    [
+     "Harris County Clerk (foreclosure notices are filed with the county clerk)",
+     "https://www.cclerk.hctx.net/"
+    ]
+   ],
+   "last_checked": "2026-11-09",
+   "sources": [
+    [
+     "U.S. Census Bureau, Vintage 2025 county population estimates (co-est2025-alldata.csv)",
+     "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+    ],
+    [
+     "U.S. Census Bureau population estimates tables",
+     "https://www.census.gov/programs-surveys/popest/data/tables.html"
+    ],
+    [
+     "Harris County official website",
+     "https://www.harriscountytx.gov/"
+    ]
+   ]
+  },
+  {
+   "name": "Dallas County",
+   "slug": "dallas",
+   "state": "Texas",
+   "abbr": "TX",
+   "seat": "Dallas",
+   "pop2025": 2661397,
+   "pop2020base": 2612087,
+   "answer": "Dallas County is a Texas county with an estimated 2,661,397 residents (Census Bureau, July 1, 2025); its county seat is Dallas. Like every Texas county, it holds foreclosure and tax sales on the first Tuesday of the month between 10 a.m. and 4 p.m. Property values come from the appraisal district, and foreclosure notices are filed with the county clerk.",
+   "facts": [
+    [
+     "County seat",
+     "Dallas"
+    ],
+    [
+     "Population, July 1, 2025 (Census estimate)",
+     "2,661,397"
+    ],
+    [
+     "Population, April 1, 2020 (estimates base)",
+     "2,612,087"
+    ],
+    [
+     "Change since 2020",
+     "+1.9%"
+    ],
+    [
+     "Property values set by",
+     "The county appraisal district (linked below)"
+    ],
+    [
+     "Foreclosure and tax sale day (state law)",
+     "First Tuesday of the month, 10 a.m. to 4 p.m. (first Wednesday if that Tuesday is Jan. 1 or July 4)"
+    ]
+   ],
+   "links": [
+    [
+     "Dallas County official website",
+     "https://www.dallascounty.org/"
+    ],
+    [
+     "Dallas Central Appraisal District",
+     "https://www.dallascad.org/"
+    ],
+    [
+     "Dallas County Tax Office",
+     "https://www.dallascounty.org/departments/tax/"
+    ]
+   ],
+   "last_checked": "2026-11-09",
+   "sources": [
+    [
+     "U.S. Census Bureau, Vintage 2025 county population estimates (co-est2025-alldata.csv)",
+     "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+    ],
+    [
+     "U.S. Census Bureau population estimates tables",
+     "https://www.census.gov/programs-surveys/popest/data/tables.html"
+    ],
+    [
+     "Dallas County official website",
+     "https://www.dallascounty.org/"
+    ]
+   ]
+  },
+  {
+   "name": "Tarrant County",
+   "slug": "tarrant",
+   "state": "Texas",
+   "abbr": "TX",
+   "seat": "Fort Worth",
+   "pop2025": 2248466,
+   "pop2020base": 2110969,
+   "answer": "Tarrant County is a Texas county with an estimated 2,248,466 residents (Census Bureau, July 1, 2025); its county seat is Fort Worth. Like every Texas county, it holds foreclosure and tax sales on the first Tuesday of the month between 10 a.m. and 4 p.m. Property values come from the appraisal district, and foreclosure notices are filed with the county clerk.",
+   "facts": [
+    [
+     "County seat",
+     "Fort Worth"
+    ],
+    [
+     "Population, July 1, 2025 (Census estimate)",
+     "2,248,466"
+    ],
+    [
+     "Population, April 1, 2020 (estimates base)",
+     "2,110,969"
+    ],
+    [
+     "Change since 2020",
+     "+6.5%"
+    ],
+    [
+     "Property values set by",
+     "The county appraisal district (linked below)"
+    ],
+    [
+     "Foreclosure and tax sale day (state law)",
+     "First Tuesday of the month, 10 a.m. to 4 p.m. (first Wednesday if that Tuesday is Jan. 1 or July 4)"
+    ]
+   ],
+   "links": [
+    [
+     "Tarrant County official website",
+     "https://www.tarrantcountytx.gov/"
+    ],
+    [
+     "Tarrant Appraisal District",
+     "https://www.tad.org/"
+    ],
+    [
+     "Tarrant County Tax Assessor-Collector",
+     "https://www.tarrantcountytx.gov/en/tax.html"
+    ]
+   ],
+   "last_checked": "2026-11-09",
+   "sources": [
+    [
+     "U.S. Census Bureau, Vintage 2025 county population estimates (co-est2025-alldata.csv)",
+     "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+    ],
+    [
+     "U.S. Census Bureau population estimates tables",
+     "https://www.census.gov/programs-surveys/popest/data/tables.html"
+    ],
+    [
+     "Tarrant County official website",
+     "https://www.tarrantcountytx.gov/"
+    ]
+   ]
+  },
+  {
+   "name": "Bexar County",
+   "slug": "bexar",
+   "state": "Texas",
+   "abbr": "TX",
+   "seat": "San Antonio",
+   "pop2025": 2160088,
+   "pop2020base": 2009323,
+   "answer": "Bexar County is a Texas county with an estimated 2,160,088 residents (Census Bureau, July 1, 2025); its county seat is San Antonio. Like every Texas county, it holds foreclosure and tax sales on the first Tuesday of the month between 10 a.m. and 4 p.m. Property values come from the appraisal district, and foreclosure notices are filed with the county clerk.",
+   "facts": [
+    [
+     "County seat",
+     "San Antonio"
+    ],
+    [
+     "Population, July 1, 2025 (Census estimate)",
+     "2,160,088"
+    ],
+    [
+     "Population, April 1, 2020 (estimates base)",
+     "2,009,323"
+    ],
+    [
+     "Change since 2020",
+     "+7.5%"
+    ],
+    [
+     "Property values set by",
+     "The county appraisal district (linked below)"
+    ],
+    [
+     "Foreclosure and tax sale day (state law)",
+     "First Tuesday of the month, 10 a.m. to 4 p.m. (first Wednesday if that Tuesday is Jan. 1 or July 4)"
+    ]
+   ],
+   "links": [
+    [
+     "Bexar County official website",
+     "https://www.bexar.org/"
+    ],
+    [
+     "Bexar Appraisal District",
+     "https://bcad.org/"
+    ],
+    [
+     "Bexar County tax information",
+     "https://www.bexar.org/1529"
+    ]
+   ],
+   "last_checked": "2026-11-09",
+   "sources": [
+    [
+     "U.S. Census Bureau, Vintage 2025 county population estimates (co-est2025-alldata.csv)",
+     "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+    ],
+    [
+     "U.S. Census Bureau population estimates tables",
+     "https://www.census.gov/programs-surveys/popest/data/tables.html"
+    ],
+    [
+     "Bexar County official website",
+     "https://www.bexar.org/"
+    ]
+   ]
+  },
+  {
+   "name": "Travis County",
+   "slug": "travis",
+   "state": "Texas",
+   "abbr": "TX",
+   "seat": "Austin",
+   "pop2025": 1389670,
+   "pop2020base": 1290157,
+   "answer": "Travis County is a Texas county with an estimated 1,389,670 residents (Census Bureau, July 1, 2025); its county seat is Austin. Like every Texas county, it holds foreclosure and tax sales on the first Tuesday of the month between 10 a.m. and 4 p.m. Property values come from the appraisal district, and foreclosure notices are filed with the county clerk.",
+   "facts": [
+    [
+     "County seat",
+     "Austin"
+    ],
+    [
+     "Population, July 1, 2025 (Census estimate)",
+     "1,389,670"
+    ],
+    [
+     "Population, April 1, 2020 (estimates base)",
+     "1,290,157"
+    ],
+    [
+     "Change since 2020",
+     "+7.7%"
+    ],
+    [
+     "Property values set by",
+     "The county appraisal district (linked below)"
+    ],
+    [
+     "Foreclosure and tax sale day (state law)",
+     "First Tuesday of the month, 10 a.m. to 4 p.m. (first Wednesday if that Tuesday is Jan. 1 or July 4)"
+    ]
+   ],
+   "links": [
+    [
+     "Travis County official website",
+     "https://www.traviscountytx.gov/"
+    ],
+    [
+     "Travis Central Appraisal District",
+     "https://traviscad.org/"
+    ],
+    [
+     "Travis County Tax Office",
+     "https://tax-office.traviscountytx.gov/"
+    ]
+   ],
+   "last_checked": "2026-11-09",
+   "sources": [
+    [
+     "U.S. Census Bureau, Vintage 2025 county population estimates (co-est2025-alldata.csv)",
+     "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+    ],
+    [
+     "U.S. Census Bureau population estimates tables",
+     "https://www.census.gov/programs-surveys/popest/data/tables.html"
+    ],
+    [
+     "Travis County official website",
+     "https://www.traviscountytx.gov/"
+    ]
+   ]
+  },
+  {
+   "name": "Collin County",
+   "slug": "collin",
+   "state": "Texas",
+   "abbr": "TX",
+   "seat": "McKinney",
+   "pop2025": 1297179,
+   "pop2020base": 1066201,
+   "answer": "Collin County is a Texas county with an estimated 1,297,179 residents (Census Bureau, July 1, 2025); its county seat is McKinney. Like every Texas county, it holds foreclosure and tax sales on the first Tuesday of the month between 10 a.m. and 4 p.m. Property values come from the appraisal district, and foreclosure notices are filed with the county clerk.",
+   "facts": [
+    [
+     "County seat",
+     "McKinney"
+    ],
+    [
+     "Population, July 1, 2025 (Census estimate)",
+     "1,297,179"
+    ],
+    [
+     "Population, April 1, 2020 (estimates base)",
+     "1,066,201"
+    ],
+    [
+     "Change since 2020",
+     "+21.7%"
+    ],
+    [
+     "Property values set by",
+     "The county appraisal district (linked below)"
+    ],
+    [
+     "Foreclosure and tax sale day (state law)",
+     "First Tuesday of the month, 10 a.m. to 4 p.m. (first Wednesday if that Tuesday is Jan. 1 or July 4)"
+    ]
+   ],
+   "links": [
+    [
+     "Collin County official website",
+     "https://www.collincountytx.gov/"
+    ],
+    [
+     "Collin Central Appraisal District",
+     "https://collincad.org/"
+    ],
+    [
+     "Collin County Tax Assessor-Collector",
+     "https://www.collincountytx.gov/Tax-Assessor"
+    ],
+    [
+     "Collin County Clerk",
+     "https://www.collincountytx.gov/county-clerk"
+    ]
+   ],
+   "last_checked": "2026-11-09",
+   "sources": [
+    [
+     "U.S. Census Bureau, Vintage 2025 county population estimates (co-est2025-alldata.csv)",
+     "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+    ],
+    [
+     "U.S. Census Bureau population estimates tables",
+     "https://www.census.gov/programs-surveys/popest/data/tables.html"
+    ],
+    [
+     "Collin County official website",
+     "https://www.collincountytx.gov/"
+    ]
+   ]
+  },
+  {
+   "name": "Denton County",
+   "slug": "denton",
+   "state": "Texas",
+   "abbr": "TX",
+   "seat": "Denton",
+   "pop2025": 1069346,
+   "pop2020base": 906530,
+   "answer": "Denton County is a Texas county with an estimated 1,069,346 residents (Census Bureau, July 1, 2025); its county seat is Denton. Like every Texas county, it holds foreclosure and tax sales on the first Tuesday of the month between 10 a.m. and 4 p.m. Property values come from the appraisal district, and foreclosure notices are filed with the county clerk.",
+   "facts": [
+    [
+     "County seat",
+     "Denton"
+    ],
+    [
+     "Population, July 1, 2025 (Census estimate)",
+     "1,069,346"
+    ],
+    [
+     "Population, April 1, 2020 (estimates base)",
+     "906,530"
+    ],
+    [
+     "Change since 2020",
+     "+18.0%"
+    ],
+    [
+     "Property values set by",
+     "The county appraisal district (linked below)"
+    ],
+    [
+     "Foreclosure and tax sale day (state law)",
+     "First Tuesday of the month, 10 a.m. to 4 p.m. (first Wednesday if that Tuesday is Jan. 1 or July 4)"
+    ]
+   ],
+   "links": [
+    [
+     "Denton County official website",
+     "https://www.dentoncounty.gov/"
+    ],
+    [
+     "Denton Central Appraisal District",
+     "https://www.dentoncad.com/"
+    ],
+    [
+     "Denton County Tax Assessor/Collector",
+     "https://www.dentoncounty.gov/778/Tax-Assessor-Collector"
+    ],
+    [
+     "Denton County foreclosure information",
+     "https://www.dentoncounty.gov/1176/Foreclosure-Information"
+    ],
+    [
+     "Denton County sheriff's sale",
+     "https://www.dentoncounty.gov/1180/Sheriffs-Sale"
+    ]
+   ],
+   "last_checked": "2026-11-09",
+   "sources": [
+    [
+     "U.S. Census Bureau, Vintage 2025 county population estimates (co-est2025-alldata.csv)",
+     "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+    ],
+    [
+     "U.S. Census Bureau population estimates tables",
+     "https://www.census.gov/programs-surveys/popest/data/tables.html"
+    ],
+    [
+     "Denton County official website",
+     "https://www.dentoncounty.gov/"
+    ]
+   ]
+  },
+  {
+   "name": "Fort Bend County",
+   "slug": "fort-bend",
+   "state": "Texas",
+   "abbr": "TX",
+   "seat": "Richmond",
+   "pop2025": 975191,
+   "pop2020base": 823997,
+   "answer": "Fort Bend County is a Texas county with an estimated 975,191 residents (Census Bureau, July 1, 2025); its county seat is Richmond. Like every Texas county, it holds foreclosure and tax sales on the first Tuesday of the month between 10 a.m. and 4 p.m. Property values come from the appraisal district, and foreclosure notices are filed with the county clerk.",
+   "facts": [
+    [
+     "County seat",
+     "Richmond"
+    ],
+    [
+     "Population, July 1, 2025 (Census estimate)",
+     "975,191"
+    ],
+    [
+     "Population, April 1, 2020 (estimates base)",
+     "823,997"
+    ],
+    [
+     "Change since 2020",
+     "+18.3%"
+    ],
+    [
+     "Property values set by",
+     "The county appraisal district (linked below)"
+    ],
+    [
+     "Foreclosure and tax sale day (state law)",
+     "First Tuesday of the month, 10 a.m. to 4 p.m. (first Wednesday if that Tuesday is Jan. 1 or July 4)"
+    ]
+   ],
+   "links": [
+    [
+     "Fort Bend County official website",
+     "https://www.fortbendcountytx.gov/"
+    ],
+    [
+     "Fort Bend Central Appraisal District",
+     "https://www.fbcad.org/"
+    ],
+    [
+     "Fort Bend County Tax Assessor-Collector",
+     "https://www.fortbendcountytx.gov/government/departments/tax-assessor-collector"
+    ],
+    [
+     "Fort Bend County Clerk: search for foreclosures",
+     "https://www.fortbendcountytx.gov/government/departments/county-clerk/search-for-foreclosures"
+    ]
+   ],
+   "last_checked": "2026-11-09",
+   "sources": [
+    [
+     "U.S. Census Bureau, Vintage 2025 county population estimates (co-est2025-alldata.csv)",
+     "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+    ],
+    [
+     "U.S. Census Bureau population estimates tables",
+     "https://www.census.gov/programs-surveys/popest/data/tables.html"
+    ],
+    [
+     "Fort Bend County official website",
+     "https://www.fortbendcountytx.gov/"
+    ]
+   ]
+  },
+  {
+   "name": "Hidalgo County",
+   "slug": "hidalgo",
+   "state": "Texas",
+   "abbr": "TX",
+   "seat": "Edinburg",
+   "pop2025": 921549,
+   "pop2020base": 870788,
+   "answer": "Hidalgo County is a Texas county with an estimated 921,549 residents (Census Bureau, July 1, 2025); its county seat is Edinburg. Like every Texas county, it holds foreclosure and tax sales on the first Tuesday of the month between 10 a.m. and 4 p.m. Property values come from the appraisal district, and foreclosure notices are filed with the county clerk.",
+   "facts": [
+    [
+     "County seat",
+     "Edinburg"
+    ],
+    [
+     "Population, July 1, 2025 (Census estimate)",
+     "921,549"
+    ],
+    [
+     "Population, April 1, 2020 (estimates base)",
+     "870,788"
+    ],
+    [
+     "Change since 2020",
+     "+5.8%"
+    ],
+    [
+     "Property values set by",
+     "The county appraisal district (linked below)"
+    ],
+    [
+     "Foreclosure and tax sale day (state law)",
+     "First Tuesday of the month, 10 a.m. to 4 p.m. (first Wednesday if that Tuesday is Jan. 1 or July 4)"
+    ]
+   ],
+   "links": [
+    [
+     "Hidalgo County official website",
+     "https://www.hidalgocounty.us/"
+    ],
+    [
+     "Hidalgo County Appraisal District",
+     "https://www.hidalgoad.org/"
+    ],
+    [
+     "Hidalgo County tax rates",
+     "https://www.hidalgocounty.us/128/Tax-Rates"
+    ]
+   ],
+   "last_checked": "2026-11-09",
+   "sources": [
+    [
+     "U.S. Census Bureau, Vintage 2025 county population estimates (co-est2025-alldata.csv)",
+     "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+    ],
+    [
+     "U.S. Census Bureau population estimates tables",
+     "https://www.census.gov/programs-surveys/popest/data/tables.html"
+    ],
+    [
+     "Hidalgo County official website",
+     "https://www.hidalgocounty.us/"
+    ]
+   ]
+  },
+  {
+   "name": "El Paso County",
+   "slug": "el-paso",
+   "state": "Texas",
+   "abbr": "TX",
+   "seat": "El Paso",
+   "pop2025": 877858,
+   "pop2020base": 865715,
+   "answer": "El Paso County is a Texas county with an estimated 877,858 residents (Census Bureau, July 1, 2025); its county seat is El Paso. Like every Texas county, it holds foreclosure and tax sales on the first Tuesday of the month between 10 a.m. and 4 p.m. Property values come from the appraisal district, and foreclosure notices are filed with the county clerk.",
+   "facts": [
+    [
+     "County seat",
+     "El Paso"
+    ],
+    [
+     "Population, July 1, 2025 (Census estimate)",
+     "877,858"
+    ],
+    [
+     "Population, April 1, 2020 (estimates base)",
+     "865,715"
+    ],
+    [
+     "Change since 2020",
+     "+1.4%"
+    ],
+    [
+     "Property values set by",
+     "The county appraisal district (linked below)"
+    ],
+    [
+     "Foreclosure and tax sale day (state law)",
+     "First Tuesday of the month, 10 a.m. to 4 p.m. (first Wednesday if that Tuesday is Jan. 1 or July 4)"
+    ]
+   ],
+   "links": [
+    [
+     "El Paso County official website",
+     "https://www.epcounty.com/"
+    ],
+    [
+     "El Paso Central Appraisal District",
+     "https://epcad.org/"
+    ]
+   ],
+   "last_checked": "2026-11-09",
+   "sources": [
+    [
+     "U.S. Census Bureau, Vintage 2025 county population estimates (co-est2025-alldata.csv)",
+     "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+    ],
+    [
+     "U.S. Census Bureau population estimates tables",
+     "https://www.census.gov/programs-surveys/popest/data/tables.html"
+    ],
+    [
+     "El Paso County official website",
+     "https://www.epcounty.com/"
+    ]
+   ]
+  },
+  {
+   "name": "Montgomery County",
+   "slug": "montgomery",
+   "state": "Texas",
+   "abbr": "TX",
+   "seat": "Conroe",
+   "pop2025": 781194,
+   "pop2020base": 620551,
+   "answer": "Montgomery County is a Texas county with an estimated 781,194 residents (Census Bureau, July 1, 2025); its county seat is Conroe. Like every Texas county, it holds foreclosure and tax sales on the first Tuesday of the month between 10 a.m. and 4 p.m. Property values come from the appraisal district, and foreclosure notices are filed with the county clerk.",
+   "facts": [
+    [
+     "County seat",
+     "Conroe"
+    ],
+    [
+     "Population, July 1, 2025 (Census estimate)",
+     "781,194"
+    ],
+    [
+     "Population, April 1, 2020 (estimates base)",
+     "620,551"
+    ],
+    [
+     "Change since 2020",
+     "+25.9%"
+    ],
+    [
+     "Property values set by",
+     "The county appraisal district (linked below)"
+    ],
+    [
+     "Foreclosure and tax sale day (state law)",
+     "First Tuesday of the month, 10 a.m. to 4 p.m. (first Wednesday if that Tuesday is Jan. 1 or July 4)"
+    ]
+   ],
+   "links": [
+    [
+     "Montgomery County official website",
+     "https://www.mctx.org/"
+    ],
+    [
+     "Montgomery Central Appraisal District",
+     "https://mcad-tx.org/"
+    ],
+    [
+     "Montgomery County Tax Office",
+     "https://www.mctotx.org/"
+    ],
+    [
+     "Montgomery County Clerk",
+     "https://countyclerk.mctx.org/"
+    ]
+   ],
+   "last_checked": "2026-11-09",
+   "sources": [
+    [
+     "U.S. Census Bureau, Vintage 2025 county population estimates (co-est2025-alldata.csv)",
+     "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+    ],
+    [
+     "U.S. Census Bureau population estimates tables",
+     "https://www.census.gov/programs-surveys/popest/data/tables.html"
+    ],
+    [
+     "Montgomery County official website",
+     "https://www.mctx.org/"
+    ]
+   ]
+  },
+  {
+   "name": "Williamson County",
+   "slug": "williamson",
+   "state": "Texas",
+   "abbr": "TX",
+   "seat": "Georgetown",
+   "pop2025": 752827,
+   "pop2020base": 609059,
+   "answer": "Williamson County is a Texas county with an estimated 752,827 residents (Census Bureau, July 1, 2025); its county seat is Georgetown. Like every Texas county, it holds foreclosure and tax sales on the first Tuesday of the month between 10 a.m. and 4 p.m. Property values come from the appraisal district, and foreclosure notices are filed with the county clerk.",
+   "facts": [
+    [
+     "County seat",
+     "Georgetown"
+    ],
+    [
+     "Population, July 1, 2025 (Census estimate)",
+     "752,827"
+    ],
+    [
+     "Population, April 1, 2020 (estimates base)",
+     "609,059"
+    ],
+    [
+     "Change since 2020",
+     "+23.6%"
+    ],
+    [
+     "Property values set by",
+     "The county appraisal district (linked below)"
+    ],
+    [
+     "Foreclosure and tax sale day (state law)",
+     "First Tuesday of the month, 10 a.m. to 4 p.m. (first Wednesday if that Tuesday is Jan. 1 or July 4)"
+    ]
+   ],
+   "links": [
+    [
+     "Williamson County official website",
+     "https://www.wilcotx.gov/"
+    ],
+    [
+     "Williamson Central Appraisal District",
+     "https://www.wcad.org/"
+    ]
+   ],
+   "last_checked": "2026-11-09",
+   "sources": [
+    [
+     "U.S. Census Bureau, Vintage 2025 county population estimates (co-est2025-alldata.csv)",
+     "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+    ],
+    [
+     "U.S. Census Bureau population estimates tables",
+     "https://www.census.gov/programs-surveys/popest/data/tables.html"
+    ],
+    [
+     "Williamson County official website",
+     "https://www.wilcotx.gov/"
+    ]
+   ]
+  },
+  {
+   "name": "Oklahoma County",
+   "slug": "oklahoma",
+   "state": "Oklahoma",
+   "abbr": "OK",
+   "seat": "Oklahoma City",
+   "pop2025": 822125,
+   "pop2020base": 796550,
+   "answer": "Oklahoma County is an Oklahoma county with an estimated 822,125 residents (Census Bureau, July 1, 2025); its county seat is Oklahoma City. Its county treasurer holds the annual tax resale on the second Monday of June, and mortgage foreclosures there usually end in a court-ordered sheriff's sale after appraisal and published notice.",
+   "facts": [
+    [
+     "County seat",
+     "Oklahoma City"
+    ],
+    [
+     "Population, July 1, 2025 (Census estimate)",
+     "822,125"
+    ],
+    [
+     "Population, April 1, 2020 (estimates base)",
+     "796,550"
+    ],
+    [
+     "Change since 2020",
+     "+3.2%"
+    ],
+    [
+     "Property values set by",
+     "The county assessor"
+    ],
+    [
+     "Tax resale (state law)",
+     "Second Monday of June, run by the county treasurer"
+    ]
+   ],
+   "links": [
+    [
+     "Oklahoma County official website",
+     "https://www.oklahomacounty.org/"
+    ],
+    [
+     "Oklahoma County Assessor",
+     "https://www.oklahomacounty.org/Elected-Offices/Assessor"
+    ],
+    [
+     "Oklahoma County Treasurer",
+     "https://www.oklahomacounty.org/Elected-Offices/Treasurer"
+    ],
+    [
+     "Oklahoma County Clerk",
+     "https://www.oklahomacounty.org/Elected-Offices/County-Clerk"
+    ],
+    [
+     "Oklahoma County Sheriff",
+     "https://www.oklahomacounty.org/Elected-Offices/Sheriff"
+    ]
+   ],
+   "last_checked": "2026-11-09",
+   "sources": [
+    [
+     "U.S. Census Bureau, Vintage 2025 county population estimates (co-est2025-alldata.csv)",
+     "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+    ],
+    [
+     "U.S. Census Bureau population estimates tables",
+     "https://www.census.gov/programs-surveys/popest/data/tables.html"
+    ],
+    [
+     "Oklahoma County official website",
+     "https://www.oklahomacounty.org/"
+    ]
+   ]
+  },
+  {
+   "name": "Tulsa County",
+   "slug": "tulsa",
+   "state": "Oklahoma",
+   "abbr": "OK",
+   "seat": "Tulsa",
+   "pop2025": 698782,
+   "pop2020base": 669268,
+   "answer": "Tulsa County is an Oklahoma county with an estimated 698,782 residents (Census Bureau, July 1, 2025); its county seat is Tulsa. Its county treasurer holds the annual tax resale on the second Monday of June, and mortgage foreclosures there usually end in a court-ordered sheriff's sale after appraisal and published notice.",
+   "facts": [
+    [
+     "County seat",
+     "Tulsa"
+    ],
+    [
+     "Population, July 1, 2025 (Census estimate)",
+     "698,782"
+    ],
+    [
+     "Population, April 1, 2020 (estimates base)",
+     "669,268"
+    ],
+    [
+     "Change since 2020",
+     "+4.4%"
+    ],
+    [
+     "Property values set by",
+     "The county assessor"
+    ],
+    [
+     "Tax resale (state law)",
+     "Second Monday of June, run by the county treasurer"
+    ]
+   ],
+   "links": [
+    [
+     "Tulsa County official website",
+     "https://www.tulsacounty.org/"
+    ],
+    [
+     "Tulsa County Assessor",
+     "https://assessor.tulsacounty.org/"
+    ],
+    [
+     "Tulsa County Treasurer",
+     "https://www2.tulsacounty.org/treasurer/"
+    ]
+   ],
+   "last_checked": "2026-11-09",
+   "sources": [
+    [
+     "U.S. Census Bureau, Vintage 2025 county population estimates (co-est2025-alldata.csv)",
+     "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+    ],
+    [
+     "U.S. Census Bureau population estimates tables",
+     "https://www.census.gov/programs-surveys/popest/data/tables.html"
+    ],
+    [
+     "Tulsa County official website",
+     "https://www.tulsacounty.org/"
+    ]
+   ]
+  },
+  {
+   "name": "Cleveland County",
+   "slug": "cleveland",
+   "state": "Oklahoma",
+   "abbr": "OK",
+   "seat": "Norman",
+   "pop2025": 303973,
+   "pop2020base": 295523,
+   "answer": "Cleveland County is an Oklahoma county with an estimated 303,973 residents (Census Bureau, July 1, 2025); its county seat is Norman. Its county treasurer holds the annual tax resale on the second Monday of June, and mortgage foreclosures there usually end in a court-ordered sheriff's sale after appraisal and published notice.",
+   "facts": [
+    [
+     "County seat",
+     "Norman"
+    ],
+    [
+     "Population, July 1, 2025 (Census estimate)",
+     "303,973"
+    ],
+    [
+     "Population, April 1, 2020 (estimates base)",
+     "295,523"
+    ],
+    [
+     "Change since 2020",
+     "+2.9%"
+    ],
+    [
+     "Property values set by",
+     "The county assessor"
+    ],
+    [
+     "Tax resale (state law)",
+     "Second Monday of June, run by the county treasurer"
+    ]
+   ],
+   "links": [
+    [
+     "Cleveland County official website",
+     "https://www.clevelandcountyok.com/"
+    ],
+    [
+     "Cleveland County Assessor",
+     "https://www.clevelandcountyok.com/129/County-Assessor"
+    ],
+    [
+     "Cleveland County Treasurer",
+     "https://www.clevelandcountyok.com/177/County-Treasurer"
+    ],
+    [
+     "Cleveland County Clerk",
+     "https://www.clevelandcountyok.com/130/County-Clerk"
+    ]
+   ],
+   "last_checked": "2026-11-09",
+   "sources": [
+    [
+     "U.S. Census Bureau, Vintage 2025 county population estimates (co-est2025-alldata.csv)",
+     "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+    ],
+    [
+     "U.S. Census Bureau population estimates tables",
+     "https://www.census.gov/programs-surveys/popest/data/tables.html"
+    ],
+    [
+     "Cleveland County official website",
+     "https://www.clevelandcountyok.com/"
+    ]
+   ]
+  },
+  {
+   "name": "Canadian County",
+   "slug": "canadian",
+   "state": "Oklahoma",
+   "abbr": "OK",
+   "seat": "El Reno",
+   "pop2025": 187189,
+   "pop2020base": 154155,
+   "answer": "Canadian County is an Oklahoma county with an estimated 187,189 residents (Census Bureau, July 1, 2025); its county seat is El Reno. Its county treasurer holds the annual tax resale on the second Monday of June, and mortgage foreclosures there usually end in a court-ordered sheriff's sale after appraisal and published notice.",
+   "facts": [
+    [
+     "County seat",
+     "El Reno"
+    ],
+    [
+     "Population, July 1, 2025 (Census estimate)",
+     "187,189"
+    ],
+    [
+     "Population, April 1, 2020 (estimates base)",
+     "154,155"
+    ],
+    [
+     "Change since 2020",
+     "+21.4%"
+    ],
+    [
+     "Property values set by",
+     "The county assessor"
+    ],
+    [
+     "Tax resale (state law)",
+     "Second Monday of June, run by the county treasurer"
+    ]
+   ],
+   "links": [
+    [
+     "Canadian County official website",
+     "https://www.canadiancounty.org/"
+    ],
+    [
+     "Canadian County Assessor",
+     "https://www.canadiancounty.org/948/Assessor-Matt-Wehmuller"
+    ],
+    [
+     "Canadian County Treasurer",
+     "https://www.canadiancounty.org/104/Treasurer"
+    ],
+    [
+     "Canadian County: how property tax is figured",
+     "https://www.canadiancounty.org/1008/How-property-tax-is-figured"
+    ]
+   ],
+   "last_checked": "2026-11-09",
+   "sources": [
+    [
+     "U.S. Census Bureau, Vintage 2025 county population estimates (co-est2025-alldata.csv)",
+     "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+    ],
+    [
+     "U.S. Census Bureau population estimates tables",
+     "https://www.census.gov/programs-surveys/popest/data/tables.html"
+    ],
+    [
+     "Canadian County official website",
+     "https://www.canadiancounty.org/"
+    ]
+   ]
+  },
+  {
+   "name": "Comanche County",
+   "slug": "comanche",
+   "state": "Oklahoma",
+   "abbr": "OK",
+   "seat": "Lawton",
+   "pop2025": 122158,
+   "pop2020base": 121125,
+   "answer": "Comanche County is an Oklahoma county with an estimated 122,158 residents (Census Bureau, July 1, 2025); its county seat is Lawton. Its county treasurer holds the annual tax resale on the second Monday of June, and mortgage foreclosures there usually end in a court-ordered sheriff's sale after appraisal and published notice.",
+   "facts": [
+    [
+     "County seat",
+     "Lawton"
+    ],
+    [
+     "Population, July 1, 2025 (Census estimate)",
+     "122,158"
+    ],
+    [
+     "Population, April 1, 2020 (estimates base)",
+     "121,125"
+    ],
+    [
+     "Change since 2020",
+     "+0.9%"
+    ],
+    [
+     "Property values set by",
+     "The county assessor"
+    ],
+    [
+     "Tax resale (state law)",
+     "Second Monday of June, run by the county treasurer"
+    ]
+   ],
+   "links": [
+    [
+     "Comanche County official website",
+     "https://www.comanchecountyok.gov/"
+    ],
+    [
+     "Comanche County property tax roll (linked from the county site)",
+     "https://oktaxrolls.com/searchTaxRoll/Comanche"
+    ],
+    [
+     "Comanche County Sheriff",
+     "https://www.comanchecountyok.gov/227/Sheriff"
+    ]
+   ],
+   "last_checked": "2026-11-09",
+   "sources": [
+    [
+     "U.S. Census Bureau, Vintage 2025 county population estimates (co-est2025-alldata.csv)",
+     "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+    ],
+    [
+     "U.S. Census Bureau population estimates tables",
+     "https://www.census.gov/programs-surveys/popest/data/tables.html"
+    ],
+    [
+     "Comanche County official website",
+     "https://www.comanchecountyok.gov/"
+    ]
+   ]
+  },
+  {
+   "name": "Rogers County",
+   "slug": "rogers",
+   "state": "Oklahoma",
+   "abbr": "OK",
+   "seat": "Claremore",
+   "pop2025": 102197,
+   "pop2020base": 95237,
+   "answer": "Rogers County is an Oklahoma county with an estimated 102,197 residents (Census Bureau, July 1, 2025); its county seat is Claremore. Its county treasurer holds the annual tax resale on the second Monday of June, and mortgage foreclosures there usually end in a court-ordered sheriff's sale after appraisal and published notice.",
+   "facts": [
+    [
+     "County seat",
+     "Claremore"
+    ],
+    [
+     "Population, July 1, 2025 (Census estimate)",
+     "102,197"
+    ],
+    [
+     "Population, April 1, 2020 (estimates base)",
+     "95,237"
+    ],
+    [
+     "Change since 2020",
+     "+7.3%"
+    ],
+    [
+     "Property values set by",
+     "The county assessor"
+    ],
+    [
+     "Tax resale (state law)",
+     "Second Monday of June, run by the county treasurer"
+    ]
+   ],
+   "links": [
+    [
+     "Rogers County official website",
+     "https://www.rogerscounty.org/"
+    ]
+   ],
+   "last_checked": "2026-11-09",
+   "sources": [
+    [
+     "U.S. Census Bureau, Vintage 2025 county population estimates (co-est2025-alldata.csv)",
+     "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+    ],
+    [
+     "U.S. Census Bureau population estimates tables",
+     "https://www.census.gov/programs-surveys/popest/data/tables.html"
+    ],
+    [
+     "Rogers County official website",
+     "https://www.rogerscounty.org/"
+    ]
+   ]
+  },
+  {
+   "name": "Wagoner County",
+   "slug": "wagoner",
+   "state": "Oklahoma",
+   "abbr": "OK",
+   "seat": "Wagoner",
+   "pop2025": 93263,
+   "pop2020base": 80987,
+   "answer": "Wagoner County is an Oklahoma county with an estimated 93,263 residents (Census Bureau, July 1, 2025); its county seat is Wagoner. Its county treasurer holds the annual tax resale on the second Monday of June, and mortgage foreclosures there usually end in a court-ordered sheriff's sale after appraisal and published notice.",
+   "facts": [
+    [
+     "County seat",
+     "Wagoner"
+    ],
+    [
+     "Population, July 1, 2025 (Census estimate)",
+     "93,263"
+    ],
+    [
+     "Population, April 1, 2020 (estimates base)",
+     "80,987"
+    ],
+    [
+     "Change since 2020",
+     "+15.2%"
+    ],
+    [
+     "Property values set by",
+     "The county assessor"
+    ],
+    [
+     "Tax resale (state law)",
+     "Second Monday of June, run by the county treasurer"
+    ]
+   ],
+   "links": [
+    [
+     "Wagoner County official website",
+     "https://www.wagonercounty.ok.gov/"
+    ]
+   ],
+   "last_checked": "2026-11-09",
+   "sources": [
+    [
+     "U.S. Census Bureau, Vintage 2025 county population estimates (co-est2025-alldata.csv)",
+     "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+    ],
+    [
+     "U.S. Census Bureau population estimates tables",
+     "https://www.census.gov/programs-surveys/popest/data/tables.html"
+    ],
+    [
+     "Wagoner County official website",
+     "https://www.wagonercounty.ok.gov/"
+    ]
+   ]
+  },
+  {
+   "name": "Payne County",
+   "slug": "payne",
+   "state": "Oklahoma",
+   "abbr": "OK",
+   "seat": "Stillwater",
+   "pop2025": 83889,
+   "pop2020base": 81644,
+   "answer": "Payne County is an Oklahoma county with an estimated 83,889 residents (Census Bureau, July 1, 2025); its county seat is Stillwater. Its county treasurer holds the annual tax resale on the second Monday of June, and mortgage foreclosures there usually end in a court-ordered sheriff's sale after appraisal and published notice.",
+   "facts": [
+    [
+     "County seat",
+     "Stillwater"
+    ],
+    [
+     "Population, July 1, 2025 (Census estimate)",
+     "83,889"
+    ],
+    [
+     "Population, April 1, 2020 (estimates base)",
+     "81,644"
+    ],
+    [
+     "Change since 2020",
+     "+2.7%"
+    ],
+    [
+     "Property values set by",
+     "The county assessor"
+    ],
+    [
+     "Tax resale (state law)",
+     "Second Monday of June, run by the county treasurer"
+    ]
+   ],
+   "links": [
+    [
+     "Payne County official website",
+     "https://www.paynecounty.org/"
+    ],
+    [
+     "Payne County Assessor",
+     "http://paynecountyassessor.org/"
+    ],
+    [
+     "Payne County Clerk",
+     "https://www.countyclerk.paynecounty.org/"
+    ],
+    [
+     "Payne County Treasurer tax roll (linked from the county site)",
+     "https://oktaxrolls.com/county/Payne"
+    ],
+    [
+     "Payne County Sheriff's Office sheriff sale listings",
+     "https://www.paynecountyok.gov/sheriff-sale"
+    ]
+   ],
+   "last_checked": "2026-11-09",
+   "sources": [
+    [
+     "U.S. Census Bureau, Vintage 2025 county population estimates (co-est2025-alldata.csv)",
+     "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+    ],
+    [
+     "U.S. Census Bureau population estimates tables",
+     "https://www.census.gov/programs-surveys/popest/data/tables.html"
+    ],
+    [
+     "Payne County official website",
+     "https://www.paynecounty.org/"
+    ]
+   ]
+  }
+ ]
+}
