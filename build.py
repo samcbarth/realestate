@@ -28,11 +28,12 @@ NAME = CFG["SITE_NAME"]
 TODAY = dt.date.today().isoformat()
 GENERATED_DIRS = ["calculators", "guides", "counties", "news", "about", "contact", "privacy", "terms"]
 
-GTM = '''<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-KMS4X55L"></script>
+GTM = '''<script async src="https://www.googletagmanager.com/gtag/js?id=G-XHPZSNJ2NL"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'G-XHPZSNJ2NL');
 </script>'''
 
 NETWORK = [

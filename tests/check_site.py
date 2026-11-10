@@ -83,7 +83,7 @@ for page in pages():
     text = page.read_text(encoding="utf-8")
     p = P()
     p.feed(text)
-    if "GTM-KMS4X55L" not in text.split("<meta", 1)[0]:
+    if "G-XHPZSNJ2NL" not in text.split("<meta", 1)[0]:
         errors.append(f"{rel}: GTM snippet not right after <head>")
     for need in ("description", "og:title", "og:image", "canonical"):
         if not p.meta.get(need):
