@@ -109,7 +109,9 @@ h3 { font-size: 1.12rem; margin: 1.4em 0 .4em; }
 .news-list li { padding: 14px 0; border-bottom: 1px solid var(--line); }
 .news-list h3 { margin: 0 0 4px; }
 .news-list h3 a { text-decoration: none; }
-.news-hero img { border-radius: var(--radius); border: 1px solid var(--line); }
+.news-hero { margin: 16px 0; }
+.news-hero img { border-radius: var(--radius); border: 1px solid var(--line); display: block; }
+blockquote { margin: 1em 0; padding: 4px 16px; border-left: 3px solid var(--accent); color: var(--muted); }
 
 /* ads: empty slots take no space */
 .ad-slot { margin: 24px 0; }
