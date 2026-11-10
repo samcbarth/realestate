@@ -1,0 +1,57 @@
+<!--{
+"order": 8,
+"short": "TX and OK property tax",
+"title": "Texas and Oklahoma Property Tax Calculator",
+"h1": "Property tax calculator for Texas and Oklahoma",
+"description": "Estimate yearly property tax in Texas (rates per $100, $140,000 school homestead exemption) or Oklahoma (assessment ratio, $1,000 homestead exemption, millage).",
+"answer": "Texas property tax is the appraised value minus exemptions, times each local rate per $100 of value; the school district homestead exemption is $140,000. Oklahoma property tax is fair cash value times the county's assessment ratio, minus a $1,000 homestead exemption, times the millage rate per $1,000.",
+"calcs": ["proptax_tx", "proptax_ok"],
+"published": "2026-11-09",
+"updated": "2026-11-09",
+"related": ["/calculators/rental-cash-flow-cap-rate/", "/calculators/mortgage-payment/", "/guides/texas/tax-sales/", "/guides/oklahoma/tax-sales/"],
+"faq": [
+ ["Where do I find the real tax rates for a Texas property?", "The county appraisal district lists every taxing unit for a property and the rates adopted each year. Most appraisal district websites show this on the property's record. The county pages on this site link to each appraisal district."],
+ ["How much is the Texas homestead exemption?", "The Texas Comptroller lists the school district residence homestead exemption at $140,000, with an additional $60,000 for owners who are 65 or older or disabled. Cities, counties and special districts may also offer an optional percentage exemption of up to 20%."],
+ ["What is the Oklahoma assessment ratio?", "Oklahoma counties assess residential property at a percentage of fair cash value set within the range in the state constitution (11% to 13.5%). Check the county assessor's website for the ratio your county uses."],
+ ["Does Oklahoma cap increases in taxable value?", "Yes. The Oklahoma Constitution limits yearly growth in the fair cash value of a homestead or agricultural land to 3% and of other locally assessed real property to 5%. State Question 847, which would have lowered those caps, failed at the November 3, 2026 election."],
+ ["Is this the same as my tax bill?", "No. It is an estimate. Your bill depends on your exact appraised value, every exemption you qualify for, and the rates adopted that year."]
+]
+}-->
+<h2>How is property tax calculated in Texas?</h2>
+<p>Texas has no state property tax. Each local taxing unit (school district, county, city, college, hospital district, MUD) sets its own rate per $100 of taxable value. The calculator:</p>
+<ol>
+<li>Subtracts the school district homestead exemption ($140,000, plus $60,000 if 65 or older or disabled) from the appraised value to get school taxable value</li>
+<li>Subtracts any local optional percentage exemption (up to 20%) for the other units</li>
+<li>Multiplies each taxable value by its rate / 100 and adds them up</li>
+</ol>
+<p>The example rates loaded below are placeholders, not any county's actual rates. Replace them with the rates from the property's appraisal district record. Exemptions for seniors and disabled owners from cities, counties and other units vary by taxing unit and are not included.</p>
+<!--ad-->
+<h2>Worked example: Texas</h2>
+<p>A {{proptax_tx.in.value|money}} homestead with the example rates:</p>
+<ul>
+<li>School taxable value: {{proptax_tx.in.value|money}} - $140,000 = {{proptax_tx.school_taxable|money}}. At {{proptax_tx.in.school_rate|ratio}} per $100, school tax is {{proptax_tx.school_tax|money}}.</li>
+<li>County, city and other rates add to $1.20 per $100 on {{proptax_tx.other_taxable|money}}: {{proptax_tx.other_tax|money}}.</li>
+<li>Estimated total: {{proptax_tx.total|money}} a year ({{proptax_tx.monthly|money}} a month), an effective rate of {{proptax_tx.effective|pct}}.</li>
+</ul>
+
+<h2>How is property tax calculated in Oklahoma?</h2>
+<ol>
+<li><strong>Assessed value</strong> = fair cash value x the county's assessment ratio</li>
+<li><strong>Net assessed value</strong> = assessed value - $1,000 homestead exemption (if you qualify)</li>
+<li><strong>Tax</strong> = net assessed value x millage / 1,000</li>
+</ol>
+<p>A mill is $1 of tax per $1,000 of assessed value. Millage depends on the school district and other levies where the property sits; the example 110 mills is a placeholder. The county assessor and treasurer publish the actual levies.</p>
+
+<h2>Worked example: Oklahoma</h2>
+<ul>
+<li>{{proptax_ok.in.value|money}} fair cash value x {{proptax_ok.in.ratio|num}}% = {{proptax_ok.assessed|money}} assessed</li>
+<li>Minus the $1,000 homestead exemption: {{proptax_ok.net_assessed|money}}</li>
+<li>At {{proptax_ok.in.mills|num}} mills: {{proptax_ok.total|money}} a year ({{proptax_ok.monthly|money}} a month), an effective rate of {{proptax_ok.effective|pct}}</li>
+</ul>
+
+<h2>Sources</h2>
+<ul class="sources">
+<li><a href="https://comptroller.texas.gov/taxes/property-tax/exemptions/" rel="noopener" target="_blank">Texas Comptroller: Property Tax Exemptions</a></li>
+<li><a href="https://law.justia.com/constitution/oklahoma/X-8B.html" rel="noopener" target="_blank">Oklahoma Constitution Article X, Section 8B (valuation caps)</a></li>
+<li><a href="https://www.logancountyok.com/153/Homestead-Exemption-Other-Property-Tax-R" rel="noopener" target="_blank">Logan County, OK: Homestead exemption ($1,000 off assessed value)</a></li>
+</ul>

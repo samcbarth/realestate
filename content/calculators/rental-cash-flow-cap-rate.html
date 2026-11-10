@@ -1,0 +1,43 @@
+<!--{
+"order": 1,
+"short": "Cash flow and cap rate",
+"title": "Rental Property Cash Flow and Cap Rate Calculator",
+"h1": "Rental property cash flow and cap rate calculator",
+"description": "Calculate monthly cash flow, cap rate, NOI, cash-on-cash return and DSCR for a rental property, with the formulas and a worked example.",
+"answer": "Cash flow is rent minus vacancy, operating expenses and the mortgage payment. Cap rate is net operating income (NOI) divided by the purchase price, and it ignores financing. Enter the deal below to see both, plus cash-on-cash return and debt service coverage.",
+"calcs": ["rental"],
+"published": "2026-11-09",
+"updated": "2026-11-09",
+"related": ["/calculators/rental-yield/", "/calculators/mortgage-payment/", "/calculators/brrrr/", "/calculators/property-tax-texas-oklahoma/"],
+"faq": [
+ ["What is a good cap rate for a rental property?", "There is no single good number. Cap rate reflects price relative to income, so it depends on the market, the property's condition and the risk of the area. Compare a deal's cap rate with recent sales of similar properties in the same area rather than with a national rule of thumb."],
+ ["Does cap rate include the mortgage?", "No. Cap rate uses net operating income, which is calculated before any loan payment. That is what makes it useful for comparing properties regardless of how each buyer finances them. Cash flow and cash-on-cash return are the measures that include the mortgage."],
+ ["What is DSCR?", "Debt service coverage ratio is NOI divided by the yearly mortgage payments. A DSCR of 1.00 means the property's income exactly covers the loan payments. Lenders that make DSCR loans set their own minimum, so check each lender's requirement."],
+ ["Why do the expense percentages use rent instead of a dollar amount?", "Maintenance, management and capital expense reserves are commonly budgeted as a share of rent. If you have real quotes, such as a property manager's fee schedule, change the percentage to match them."]
+]
+}-->
+<h2>How do you calculate rental property cash flow?</h2>
+<p>Monthly cash flow is what is left after every cost of owning the property, including the loan. The calculator works through it in this order:</p>
+<ol>
+<li><strong>Gross income</strong> = (monthly rent + other income) x 12</li>
+<li><strong>Effective gross income (EGI)</strong> = gross income minus the vacancy allowance</li>
+<li><strong>Operating expenses</strong> = property tax + insurance + HOA + owner-paid utilities + maintenance, management and CapEx reserves (each a percentage of rent)</li>
+<li><strong>Net operating income (NOI)</strong> = EGI minus operating expenses</li>
+<li><strong>Cash flow</strong> = NOI minus yearly principal and interest, then divided by 12 for the monthly figure</li>
+</ol>
+
+<h2>How do you calculate cap rate?</h2>
+<p>Cap rate = NOI / purchase price x 100. It answers one question: if you bought the property with cash, what yearly return would its income produce? Because it leaves out financing, two investors with different loans see the same cap rate on the same property.</p>
+<!--ad-->
+<h2>Worked example</h2>
+<p>Take the example already loaded in the calculator: a {{rental.in.price|money}} single-family rental renting for {{rental.in.rent|money}} a month, bought with {{rental.in.down_pct|num}}% down at {{rental.in.rate|pct}} on a {{rental.in.years|num}}-year loan.</p>
+<ul>
+<li>Gross income: {{rental.gross|money}} a year. After a {{rental.in.vacancy|num}}% vacancy allowance, EGI is {{rental.egi|money}}.</li>
+<li>Operating expenses: {{rental.in.tax_yr|money}} property tax, {{rental.in.ins_yr|money}} insurance, and maintenance, management and CapEx reserves of {{rental.in.maint|num}}%, {{rental.in.mgmt|num}}% and {{rental.in.capex|num}}% of rent. Total: {{rental.opex|money}}.</li>
+<li>NOI: {{rental.noi|money}}, so the cap rate is {{rental.cap_rate|pct}}.</li>
+<li>The mortgage payment is {{rental.debt_mo|money}} a month. Monthly cash flow comes to {{rental.cashflow_mo|money}}, and cash-on-cash return on the {{rental.cash_in|money}} invested is {{rental.coc|pct}}. DSCR is {{rental.dscr|ratio}}.</li>
+</ul>
+<p>This example shows a common situation when mortgage rates are high: the property earns a positive NOI, but the loan payment is larger than what is left. Try a bigger down payment, a lower price, or higher rent to see what it would take to break even.</p>
+
+<h2>Which numbers matter most?</h2>
+<p>Property tax and insurance are often underestimated. In Texas and Oklahoma, tax is set by local rates, so look up the actual rate for the property with the <a href="/calculators/property-tax-texas-oklahoma/">property tax calculator</a> instead of guessing. Get an insurance quote before you make an offer.</p>

@@ -1,0 +1,42 @@
+<!--{
+"order": 4,
+"short": "Fix and flip",
+"title": "Fix and Flip Calculator: Rehab Cost, Profit and ROI",
+"h1": "Fix and flip calculator",
+"description": "Estimate fix-and-flip profit, cash needed and ROI from purchase price, rehab budget, holding costs, loan terms and ARV, with a worked example.",
+"answer": "Flip profit is the after repair value (ARV) minus everything you spend: purchase price, buying closing costs, rehab plus a contingency, holding costs, loan interest and points, and selling costs. ROI is that profit divided by the cash you actually put in.",
+"calcs": ["flip"],
+"published": "2026-11-09",
+"updated": "2026-11-09",
+"related": ["/calculators/70-percent-rule/", "/calculators/brrrr/", "/calculators/wholesale-assignment-fee/"],
+"faq": [
+ ["Why add a rehab contingency?", "Older houses often reveal problems once walls and floors are opened up. A contingency, entered as a percentage of the rehab budget, keeps a cushion in the numbers. Set it higher for older or more neglected properties."],
+ ["What are holding costs?", "Costs you pay every month while you own the property and before it sells: property tax, insurance, utilities, lawn care and HOA dues. Loan interest is calculated separately from the loan inputs."],
+ ["How is the loan modeled?", "The calculator assumes an interest-only loan that covers the percentage you enter of the purchase price plus rehab, with points paid up front. Many short-term rehab loans work differently, for example releasing rehab money in draws, so adjust the inputs to match your lender's term sheet."],
+ ["What is a good profit on a flip?", "It depends on your risk tolerance and the time involved. Compare the annualized return with other uses of the same cash, and stress test the deal by lowering the ARV and raising the rehab budget."]
+]
+}-->
+<h2>How do you calculate fix-and-flip profit?</h2>
+<p>The calculator totals every cost of the project and subtracts it from the expected sale price:</p>
+<ul>
+<li><strong>Rehab with contingency</strong> = rehab budget x (1 + contingency %)</li>
+<li><strong>Loan</strong> = (purchase price + rehab with contingency) x loan percentage</li>
+<li><strong>Interest</strong> = loan x rate / 12 x months held (interest-only)</li>
+<li><strong>All-in cost</strong> = purchase + buying closing costs + rehab with contingency + holding costs + interest + points + selling costs</li>
+<li><strong>Profit</strong> = ARV - all-in cost</li>
+<li><strong>Cash needed</strong> = everything you pay before the sale, minus the loan amount</li>
+<li><strong>ROI</strong> = profit / cash needed, and the annualized return scales that to 12 months</li>
+</ul>
+<!--ad-->
+<h2>Worked example</h2>
+<p>Using the example values: buy for {{flip.in.purchase|money}}, budget {{flip.in.rehab|money}} for the rehab plus a {{flip.in.contingency|num}}% contingency ({{flip.rehab_total|money}} total), and sell at an ARV of {{flip.in.arv|money}} after {{flip.in.months|num}} months.</p>
+<ul>
+<li>A loan for {{flip.in.loan_pct|num}}% of purchase plus rehab is {{flip.loan|money}}. At {{flip.in.rate|pct}} interest for {{flip.in.months|num}} months, interest is {{flip.interest|money}}, and {{flip.in.points|num}} points cost {{flip.points_cost|money}}.</li>
+<li>Holding costs: {{flip.holding|money}}. Buying closing costs: {{flip.buy_closing|money}}. Selling costs at {{flip.in.sell_cost_pct|num}}% of ARV: {{flip.sell_costs|money}}.</li>
+<li>All-in cost: {{flip.total_cost|money}}. Profit: {{flip.profit|money}}.</li>
+<li>Cash needed: {{flip.cash_needed|money}}, so the return on cash is {{flip.roi|pct}}, or {{flip.annualized|pct}} annualized.</li>
+</ul>
+<p>Now try lowering the ARV by 5% and adding a month to the timeline. Small changes to the sale price and schedule move the profit more than most people expect, which is why the <a href="/calculators/70-percent-rule/">70% rule</a> builds in a margin.</p>
+
+<h2>Estimating rehab cost</h2>
+<p>Walk the property with a contractor before you commit, and price the work room by room: roof, HVAC, plumbing, electrical, foundation, kitchen, baths, flooring, paint and exterior. Permit requirements are set by each city, so check with the local building department for what your scope of work needs.</p>

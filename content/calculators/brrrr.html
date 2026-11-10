@@ -1,0 +1,40 @@
+<!--{
+"order": 5,
+"short": "BRRRR",
+"title": "BRRRR Calculator: Cash Left in the Deal and Cash Flow",
+"h1": "BRRRR calculator",
+"description": "Run a BRRRR deal (buy, rehab, rent, refinance, repeat): all-in cost, refinance loan, cash left in the deal, cash flow and cash-on-cash return.",
+"answer": "BRRRR means buy, rehab, rent, refinance, repeat. The key number is cash left in the deal: your all-in cost minus the cash you get back when you refinance at a percentage of the after repair value. The lower it is, the sooner that money can go into the next property.",
+"calcs": ["brrrr"],
+"published": "2026-11-09",
+"updated": "2026-11-09",
+"related": ["/calculators/fix-and-flip/", "/calculators/rental-cash-flow-cap-rate/", "/calculators/70-percent-rule/", "/calculators/mortgage-payment/"],
+"faq": [
+ ["What loan-to-value do lenders allow on a cash-out refinance?", "It varies by lender and loan program, and many have a waiting period (seasoning) before they will use the new appraised value. Ask your lender for its maximum loan-to-value and seasoning rules before you buy, and enter that LTV here."],
+ ["What happens if cash left in the deal is negative?", "That means the refinance returns more than you spent. The calculator then shows cash-on-cash return as not applicable, because no cash is left to measure against. Check that the cash flow is still positive with the larger loan."],
+ ["What does the operating cost percentage include?", "A single percentage of rent covering vacancy, property tax, insurance, maintenance, management and reserves. Use the cash flow calculator for an itemized version once you have real numbers."]
+]
+}-->
+<h2>How do you calculate a BRRRR deal?</h2>
+<ol>
+<li><strong>All-in cost</strong> = purchase price + purchase closing costs + rehab + holding costs until the refinance</li>
+<li><strong>Refinance loan</strong> = after repair value (ARV) x refinance loan-to-value</li>
+<li><strong>Cash back</strong> = refinance loan - refinance closing costs</li>
+<li><strong>Cash left in the deal</strong> = all-in cost - cash back</li>
+<li><strong>Cash flow</strong> = rent x (1 - operating cost %) - new mortgage payment</li>
+<li><strong>Cash-on-cash return</strong> = yearly cash flow / cash left in the deal</li>
+</ol>
+<p>The model assumes you bought and rehabbed with cash or short-term money that the refinance pays off. If you used a hard money loan, add its interest and points to holding costs.</p>
+<!--ad-->
+<h2>Worked example</h2>
+<p>With the example values: buy for {{brrrr.in.purchase|money}}, pay {{brrrr.in.closing|money}} to close, spend {{brrrr.in.rehab|money}} on the rehab and {{brrrr.in.holding|money}} holding it. All-in cost: {{brrrr.all_in|money}}.</p>
+<ul>
+<li>The house appraises at {{brrrr.in.arv|money}}. A {{brrrr.in.refi_ltv|num}}% refinance is a {{brrrr.refi_loan|money}} loan. After {{brrrr.in.refi_cost|money}} in closing costs, you get {{brrrr.cash_back|money}} back.</li>
+<li>Cash left in the deal: {{brrrr.cash_left|money}}. Equity after the refinance: {{brrrr.equity|money}}.</li>
+<li>The new payment at {{brrrr.in.rate|pct}} is {{brrrr.payment|money}}. Rent of {{brrrr.in.rent|money}} less {{brrrr.in.opex_pct|num}}% for operating costs leaves {{brrrr.noi_mo|money}}, so cash flow is {{brrrr.cashflow_mo|money}} a month.</li>
+<li>Cash-on-cash return: {{brrrr.coc|pct}}.</li>
+</ul>
+<p>Notice the trade-off: a higher refinance LTV pulls more cash out but raises the payment and cuts cash flow. Move the LTV slider between 70% and 80% to see where the deal still pays for itself.</p>
+
+<h2>Where BRRRR deals go wrong</h2>
+<p>The two numbers that break most BRRRR plans are the appraisal and the rent. If the appraisal comes in low, more cash stays in the deal. If rent is lower than planned, the larger loan can turn cash flow negative. Use comparable sales and current rental listings near the property, and run the numbers again with both lower.</p>

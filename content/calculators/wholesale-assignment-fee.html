@@ -1,0 +1,36 @@
+<!--{
+"order": 7,
+"short": "Wholesale fee",
+"title": "Wholesale Assignment Fee Calculator",
+"h1": "Wholesale assignment fee calculator",
+"description": "Estimate the maximum wholesale assignment fee: the end buyer's maximum price (ARV x rule % - repairs) minus your contract price, less your costs.",
+"answer": "A wholesale assignment fee is the difference between what an end buyer will pay for your contract and your contract price with the seller. If the buyer's maximum is ARV x 70% - repairs, the most you can charge is that amount minus your contract price.",
+"calcs": ["wholesale"],
+"published": "2026-11-09",
+"updated": "2026-11-09",
+"related": ["/calculators/70-percent-rule/", "/calculators/fix-and-flip/", "/guides/texas/probate-property/"],
+"faq": [
+ ["Is wholesaling legal in Texas and Oklahoma?", "This calculator covers the math, not the law. Rules on marketing and assigning a contract for property you do not own are set by each state, so read the current guidance from the Texas Real Estate Commission or the Oklahoma Real Estate Commission and talk to a real estate attorney before you market a contract."],
+ ["Why subtract my costs?", "Marketing to find the seller, earnest money you could lose, and title or attorney fees all come out of the fee. The net figure is what you actually keep."],
+ ["What if the fee comes out negative?", "Then your contract price is above what a cash buyer would pay at that rule percentage, and the deal will be hard to assign. Either renegotiate the price or find a buyer with a different strategy, such as a landlord."]
+]
+}-->
+<h2>How is a wholesale assignment fee calculated?</h2>
+<ol>
+<li><strong>End buyer's maximum price</strong> = ARV x the buyer's rule percentage - repairs</li>
+<li><strong>Maximum assignment fee</strong> = end buyer's maximum price - your contract price</li>
+<li><strong>Net fee</strong> = maximum assignment fee - your costs</li>
+</ol>
+<p>The buyer's percentage is usually the same 70% used in the <a href="/calculators/70-percent-rule/">70% rule</a>, but buyers who plan to keep the house as a rental may pay more or less.</p>
+<!--ad-->
+<h2>Worked example</h2>
+<p>With the example values: ARV {{wholesale.in.arv|money}}, repairs {{wholesale.in.repairs|money}}, buyer percentage {{wholesale.in.investor_pct|num}}%, and a contract price of {{wholesale.in.contract_price|money}}.</p>
+<ul>
+<li>End buyer's maximum: {{wholesale.buyer_max|money}}</li>
+<li>Maximum assignment fee: {{wholesale.buyer_max|money}} - {{wholesale.in.contract_price|money}} = {{wholesale.max_fee|money}}</li>
+<li>After {{wholesale.in.costs|money}} of your own costs: {{wholesale.net_fee|money}}</li>
+</ul>
+<p>The fee is only as good as the ARV and repair estimates. Buyers will check both, so price them honestly or the assignment will not close.</p>
+
+<h2>Know the rules before you market a contract</h2>
+<p>This calculator is for the math only. Before you advertise or assign a contract, check the current requirements with the <a href="https://www.trec.texas.gov/" rel="noopener" target="_blank">Texas Real Estate Commission</a> or the <a href="https://oklahoma.gov/orec.html" rel="noopener" target="_blank">Oklahoma Real Estate Commission</a>.</p>

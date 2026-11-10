@@ -1,0 +1,34 @@
+<!--{
+"order": 2,
+"short": "Rental yield",
+"title": "Rental Yield Calculator: Gross and Net Yield",
+"h1": "Rental yield calculator",
+"description": "Calculate gross and net rental yield from purchase price, rent and expenses, with the formulas, a worked example and how yield differs from cap rate.",
+"answer": "Gross rental yield is yearly rent divided by the purchase price. Net rental yield subtracts yearly operating expenses from rent and divides by the price plus purchase costs. Gross yield is a quick screen; net yield is closer to what the property actually earns.",
+"calcs": ["yield"],
+"published": "2026-11-09",
+"updated": "2026-11-09",
+"related": ["/calculators/rental-cash-flow-cap-rate/", "/calculators/mortgage-payment/", "/calculators/property-tax-texas-oklahoma/"],
+"faq": [
+ ["What is the difference between rental yield and cap rate?", "They are close. Net yield and cap rate both compare income after operating expenses with the cost of the property. On this site, net yield divides by price plus purchase costs, while cap rate divides by price alone, so net yield is slightly lower for the same deal."],
+ ["Should the mortgage be included in operating expenses?", "No. Yield measures the property, not the financing. To see the effect of a loan, use the cash flow calculator, which reports cash flow and cash-on-cash return."],
+ ["What counts as an operating expense?", "Property tax, insurance, HOA dues, repairs and maintenance, property management, owner-paid utilities and a reserve for big replacements such as roofs and HVAC. Do not include mortgage principal or interest."]
+]
+}-->
+<h2>How do you calculate gross rental yield?</h2>
+<p>Gross yield = (monthly rent x 12) / purchase price x 100. It is fast and needs only two numbers, which makes it useful for sorting a long list of listings. It ignores every expense, so two properties with the same gross yield can perform very differently.</p>
+
+<h2>How do you calculate net rental yield?</h2>
+<p>Net yield = (yearly rent - yearly operating expenses) / (purchase price + purchase costs) x 100. Including purchase costs, such as closing costs and any immediate repairs, gives a truer picture of the money tied up in the property.</p>
+<!--ad-->
+<h2>Worked example</h2>
+<p>With the calculator's example values, a property bought for {{yield.in.price|money}} plus {{yield.in.costs|money}} in purchase costs rents for {{yield.in.rent|money}} a month:</p>
+<ul>
+<li>Yearly rent: {{yield.annual_rent|money}}, so gross yield is {{yield.gross_yield|pct}}.</li>
+<li>Subtracting {{yield.in.expenses_yr|money}} of yearly operating expenses leaves {{yield.net_income|money}}.</li>
+<li>Net yield: {{yield.net_income|money}} / {{yield.in.price|money}} plus {{yield.in.costs|money}} = {{yield.net_yield|pct}}.</li>
+</ul>
+<p>The gap between the two numbers is the cost of running the property. If you only ever look at gross yield, that gap is the part you are not seeing.</p>
+
+<h2>When to use yield instead of cash flow</h2>
+<p>Use yield to compare properties quickly, before you have loan terms. Once you know how you will finance the purchase, switch to the <a href="/calculators/rental-cash-flow-cap-rate/">cash flow and cap rate calculator</a> to see the monthly result after the mortgage.</p>

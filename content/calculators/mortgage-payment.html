@@ -1,0 +1,34 @@
+<!--{
+"order": 3,
+"short": "Mortgage payment",
+"title": "Mortgage Payment Calculator with Taxes, Insurance and PMI",
+"h1": "Mortgage payment calculator",
+"description": "Estimate a monthly mortgage payment including principal, interest, property tax, insurance, PMI and HOA, with the amortization formula and a worked example.",
+"answer": "A monthly mortgage payment is principal and interest from the amortization formula, plus one twelfth of yearly property tax and insurance, plus PMI if the down payment is under 20%, plus any HOA dues. The calculator adds them all so you see the full monthly cost.",
+"calcs": ["mortgage"],
+"published": "2026-11-09",
+"updated": "2026-11-09",
+"related": ["/calculators/rental-cash-flow-cap-rate/", "/calculators/property-tax-texas-oklahoma/", "/calculators/brrrr/"],
+"faq": [
+ ["What formula is used for the principal and interest payment?", "Payment = L x r / (1 - (1 + r)^-n), where L is the loan amount, r is the yearly rate divided by 12, and n is the number of monthly payments. This is the standard formula for a fixed-rate, fully amortizing loan."],
+ ["How is PMI estimated?", "The calculator multiplies the loan amount by the yearly PMI rate you enter and divides by 12. It only applies PMI when the down payment is under 20%. Actual PMI pricing depends on your lender, credit and loan type, so replace the example rate with a quote."],
+ ["Where can I find current mortgage rates?", "Freddie Mac publishes a weekly national average in its Primary Mortgage Market Survey. Our news section summarizes it, but the rate you are offered depends on your credit, loan type and lender."]
+]
+}-->
+<h2>How is a mortgage payment calculated?</h2>
+<p>Principal and interest (P&amp;I) come from the amortization formula: payment = L x r / (1 - (1 + r)<sup>-n</sup>). L is the loan amount, r is the monthly interest rate (yearly rate / 12) and n is the number of payments (years x 12). The payment stays the same for the life of a fixed-rate loan; early payments are mostly interest and later payments are mostly principal.</p>
+<p>Most lenders also collect property tax and insurance each month through an escrow account, so the calculator adds one twelfth of each yearly amount. PMI is added when the down payment is under 20%, and HOA dues are added as entered.</p>
+<!--ad-->
+<h2>Worked example</h2>
+<p>A {{mortgage.in.price|money}} home with {{mortgage.in.down_pct|num}}% down ({{mortgage.down|money}}) leaves a {{mortgage.loan|money}} loan. At {{mortgage.in.rate|pct}} for {{mortgage.in.years|num}} years:</p>
+<ul>
+<li>Principal and interest: {{mortgage.pi|money}} a month</li>
+<li>Property tax: {{mortgage.in.tax_yr|money}} a year, or {{mortgage.tax_mo|money}} a month</li>
+<li>Insurance: {{mortgage.in.ins_yr|money}} a year, or {{mortgage.ins_mo|money}} a month</li>
+<li>PMI: {{mortgage.pmi_mo|money}}, because the down payment is 20%</li>
+<li>Total monthly payment: {{mortgage.total|money}}</li>
+</ul>
+<p>Over the full term, interest adds up to {{mortgage.total_interest|money}}, more than the loan itself. Try a 15-year term to see how much interest a shorter loan saves and how much the monthly payment rises.</p>
+
+<h2>Using this for investment property</h2>
+<p>Lenders typically price investment property loans differently from loans on a home you live in, and down payment requirements are often higher. Get a quote for the loan type you will actually use, then plug the payment into the <a href="/calculators/rental-cash-flow-cap-rate/">cash flow calculator</a>.</p>

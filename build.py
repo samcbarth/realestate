@@ -312,7 +312,7 @@ CALC_SPECS = {
             ("rehab", "Rehab cost", 40000, "$", "", 500), ("holding", "Holding costs until refi", 4000, "$", "", 100),
             ("arv", "After repair value (ARV)", 210000, "$", "", 1000), ("refi_ltv", "Refinance loan-to-value", 75, "", "%", 1),
             ("refi_cost", "Refinance closing costs", 5000, "$", "", 100), ("rate", "Refinance rate", 7.5, "", "%", 0.05),
-            ("years", "Refinance term", 30, "", "yrs", 1), ("rent", "Monthly rent", 1750, "$", "", 25),
+            ("years", "Refinance term", 30, "", "yrs", 1), ("rent", "Monthly rent", 1900, "$", "", 25),
             ("opex_pct", "Operating costs incl. vacancy (% of rent)", 40, "", "%", 1),
         ],
         "outputs": [

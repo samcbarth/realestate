@@ -1,0 +1,31 @@
+<!--{
+"order": 6,
+"short": "70% rule",
+"title": "70% Rule Calculator: Maximum Offer for a Flip",
+"h1": "70% rule calculator (maximum offer)",
+"description": "Find the maximum offer on a fix-and-flip using the 70% rule: ARV times 70% minus repairs. Adjust the percentage and see a worked example.",
+"answer": "The 70% rule says a flipper should pay no more than 70% of the after repair value (ARV) minus the cost of repairs. For a $250,000 ARV and $40,000 of repairs, that is $250,000 x 0.70 - $40,000 = $135,000.",
+"calcs": ["rule70"],
+"published": "2026-11-09",
+"updated": "2026-11-09",
+"related": ["/calculators/fix-and-flip/", "/calculators/wholesale-assignment-fee/", "/calculators/brrrr/"],
+"faq": [
+ ["Why 70%?", "The 30% gap is meant to cover closing costs on both ends, holding costs, financing and the investor's profit, without itemizing them. It is a screening rule, not a law of the market, and many investors adjust it."],
+ ["Should I use a different percentage?", "Some investors use a higher percentage where prices are high and selling costs are a smaller share of the price, and a lower one for riskier projects. Run the full numbers in the fix and flip calculator before you commit to any offer."],
+ ["Does the 70% rule work for rentals?", "It was built for flips. For a rental you plan to keep, the BRRRR and cash flow calculators are better tools because the result depends on rent and the refinance, not the resale."]
+]
+}-->
+<h2>How does the 70% rule work?</h2>
+<p>Maximum offer = ARV x 70% - estimated repairs. ARV is what the house should sell for once fixed, based on recent sales of similar updated homes nearby. Repairs are your full rehab estimate.</p>
+<p>The rule is fast because it needs only two numbers. That speed is its value when you are screening many leads; its weakness is that it hides the costs it is supposed to cover.</p>
+<!--ad-->
+<h2>Worked example</h2>
+<p>With the example values, ARV is {{rule70.in.arv|money}} and repairs are {{rule70.in.repairs|money}}:</p>
+<ul>
+<li>{{rule70.in.arv|money}} x {{rule70.in.pct|num}}% = {{rule70.arv_pct|money}}</li>
+<li>{{rule70.arv_pct|money}} - {{rule70.in.repairs|money}} = <strong>{{rule70.max_offer|money}} maximum offer</strong></li>
+</ul>
+<p>To check whether that offer really leaves a profit, put {{rule70.max_offer|money}} into the <a href="/calculators/fix-and-flip/">fix and flip calculator</a> with your actual loan, holding and selling costs.</p>
+
+<h2>How wholesalers use the rule</h2>
+<p>Wholesalers usually work backward from the 70% number, because it is roughly what a cash buyer will pay. The difference between that number and the wholesaler's contract price is the room for an assignment fee. The <a href="/calculators/wholesale-assignment-fee/">wholesale fee calculator</a> does that math.</p>
