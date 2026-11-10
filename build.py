@@ -127,7 +127,10 @@ def head(title, desc, path, lds, og_type="website", image=None, extra=""):
 <meta property="og:url" content="{BASE}{path}">
 <meta property="og:image" content="{img}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#1f6f4a">
+<meta name="theme-color" content="#000000">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@900&family=Inter:wght@400;500;700&display=swap">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="{e(NAME)}" href="/rss.xml">
 <link rel="alternate" type="application/feed+json" title="{e(CFG["NEWS_NAME"])}" href="/news/feed.json">
@@ -148,8 +151,8 @@ def header(path):
     return f'''<body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-head"><div class="wrap">
-<a class="logo" href="/"><span class="logo-mark" aria-hidden="true">DM</span>{e(NAME)}</a>
-<nav class="nav" aria-label="Main">{"".join(links)}<button class="theme-toggle" type="button" aria-label="Toggle dark mode">Theme</button></nav>
+<a class="logo" href="/"><span class="dot" aria-hidden="true"></span>{e(NAME)}</a>
+<nav class="nav" aria-label="Main">{"".join(links)}</nav>
 </div></header>
 '''
 
@@ -409,7 +412,7 @@ def calc_widget(cid):
 <form data-calc="{cid}" data-results="{cid}-results" novalidate>
 <h2>{e(s["title"])} inputs</h2>
 <div class="fields">{"".join(fields)}</div>
-<div class="calc-actions"><button class="btn" type="reset">Reset to example</button></div>
+<div class="calc-actions"><button class="button ghost small" type="reset">Reset to example</button></div>
 </form>
 <div class="results" id="{cid}-results" aria-live="polite"><h2>Results</h2>{outs}</div>
 </section>'''
@@ -728,10 +731,12 @@ def og_images():
         jpg = outdir / f"{name}.jpg"
         if jpg.exists() and not force:
             return
-        im = Image.new("RGB", (1200, 630), "#1f6f4a")
+        im = Image.new("RGB", (1200, 630), "#000000")
         d = ImageDraw.Draw(im)
-        d.rectangle([0, 560, 1200, 630], fill="#174f36")
-        d.text((70, 70), kicker.upper(), font=font(30), fill="#cfe9da")
+        for x in range(1200):
+            d.line([(x, 552), (x, 556)], fill=(int(154 * x / 1199), 0, int(255 * x / 1199)))
+        d.rectangle([0, 556, 1200, 630], fill="#191919")
+        d.text((70, 70), kicker.upper(), font=font(30), fill="#8e7cc3")
         y = 140
         for line in wrap(d, title, font(62), 1060)[:5]:
             d.text((70, y), line, font=font(62), fill="#ffffff")
@@ -759,9 +764,11 @@ def build_home():
         f'<li><p class="meta">{n["date_human"]}</p><h3><a href="/news/{n["slug"]}/">{e(n["title"])}</a></h3></li>' for n in NEWS[:4]
     )
     body = (
-        '<section class="hero"><h1>Run the numbers before you make the offer</h1>'
+        '<section class="hero"><p class="eyebrow">Texas and Oklahoma real estate investing</p><h1>Run the numbers before you make the offer</h1>'
         f'<p>{e(NAME)} has free calculators for rentals, flips, BRRRR and wholesale deals, plus plain-English guides to buying '
-        "tax-sale, foreclosure, probate and sheriff-sale property in Texas and Oklahoma.</p></section>"
+        "tax-sale, foreclosure, probate and sheriff-sale property in Texas and Oklahoma.</p>"
+        '<p class="hero-cta"><a class="button primary" href="/calculators/">Open the calculators</a> '
+        '<a class="button ghost" href="/guides/">Read the guides</a></p></section>'
         f'<h2>Calculators</h2><div class="grid">{calc_cards}</div>{ad("after_intro")}'
         f'<h2>Texas and Oklahoma investor guides</h2><p>Compare the two states side by side on the <a href="/guides/">comparison page</a>, or open a guide:</p>'
         f'<div class="grid">{guide_cards}</div>'
@@ -796,7 +803,7 @@ def contact_block():
     if CFG.get("HUBSPOT_FORM_ID"):
         return (
             '<div id="hs-form"></div><script src="https://js.hsforms.net/forms/embed/v2.js"></script>'
-            f'<script>hbspt.forms.create({{region:"na1",portalId:"{e(CFG["HUBSPOT_PORTAL"])}",formId:"{e(CFG["HUBSPOT_FORM_ID"])}",target:"#hs-form"}});</script>'
+            f'<script>hbspt.forms.create({{region:"na1",portalId:"{e(CFG["HUBSPOT_PORTAL"])}",formId:"{e(CFG["HUBSPOT_FORM_ID"])}",target:"#hs-form",onFormReady:function(){{var f=document.querySelector("#hs-form iframe");if(!f)return;try{{var d=f.contentDocument,st=d.createElement("style");st.textContent="body,label,legend,.hs-field-desc{{color:#fff!important;font-family:Inter,Helvetica,Arial,sans-serif!important}}legend,.hs-field-desc{{color:rgba(255,255,255,.72)!important}}.hs-form-required,.hs-error-msg{{color:#ff8a80!important}}.hs-button{{border-radius:50px!important;min-height:52px;padding:0 30px!important;text-transform:uppercase;letter-spacing:.06em;font-weight:700!important;background:#9a00ff!important;border:0!important}}";d.head.appendChild(st);}}catch(e){{}}}}}});</script>'
         )
     if CFG.get("CONTACT_EMAIL"):
         em = e(CFG["CONTACT_EMAIL"])

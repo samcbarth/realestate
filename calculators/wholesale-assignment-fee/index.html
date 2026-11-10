@@ -19,7 +19,10 @@
 <meta property="og:url" content="https://realestate.samcbarth.com/calculators/wholesale-assignment-fee/">
 <meta property="og:image" content="https://realestate.samcbarth.com/assets/og/default.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#1f6f4a">
+<meta name="theme-color" content="#000000">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@900&family=Inter:wght@400;500;700&display=swap">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="Deal Math" href="/rss.xml">
 <link rel="alternate" type="application/feed+json" title="Deal Math Market Brief" href="/news/feed.json">
@@ -32,14 +35,14 @@
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-head"><div class="wrap">
-<a class="logo" href="/"><span class="logo-mark" aria-hidden="true">DM</span>Deal Math</a>
-<nav class="nav" aria-label="Main"><a href="/calculators/" aria-current="page">Calculators</a><a href="/guides/texas/">Texas guides</a><a href="/guides/oklahoma/">Oklahoma guides</a><a href="/counties/">Counties</a><a href="/news/">News</a><a href="/about/">About</a><button class="theme-toggle" type="button" aria-label="Toggle dark mode">Theme</button></nav>
+<a class="logo" href="/"><span class="dot" aria-hidden="true"></span>Deal Math</a>
+<nav class="nav" aria-label="Main"><a href="/calculators/" aria-current="page">Calculators</a><a href="/guides/texas/">Texas guides</a><a href="/guides/oklahoma/">Oklahoma guides</a><a href="/counties/">Counties</a><a href="/news/">News</a><a href="/about/">About</a></nav>
 </div></header>
 <div class="wrap layout has-side"><main id="main" class="main"><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Deal Math</a> / <a href="/calculators/">Calculators</a> / <span>Wholesale fee</span></nav><article class="prose-wrap"><h1>Wholesale assignment fee calculator</h1><p class="answer">A wholesale assignment fee is the difference between what an end buyer will pay for your contract and your contract price with the seller. If the buyer's maximum is ARV x 70% - repairs, the most you can charge is that amount minus your contract price.</p><section class="calc" aria-label="Wholesale assignment fee calculator">
 <form data-calc="wholesale" data-results="wholesale-results" novalidate>
 <h2>Wholesale assignment fee inputs</h2>
 <div class="fields"><div class="field"><label for="wholesale-arv">After repair value (ARV)</label><div class="inp"><span>$</span><input type="number" id="wholesale-arv" name="arv" value="250000" step="1000" inputmode="decimal"></div></div><div class="field"><label for="wholesale-repairs">Estimated repairs</label><div class="inp"><span>$</span><input type="number" id="wholesale-repairs" name="repairs" value="40000" step="500" inputmode="decimal"></div></div><div class="field"><label for="wholesale-investor_pct">End buyer&#x27;s rule percentage</label><div class="inp"><input type="number" id="wholesale-investor_pct" name="investor_pct" value="70" step="1" inputmode="decimal"><span>%</span></div></div><div class="field"><label for="wholesale-contract_price">Your contract price with the seller</label><div class="inp"><span>$</span><input type="number" id="wholesale-contract_price" name="contract_price" value="125000" step="1000" inputmode="decimal"></div></div><div class="field"><label for="wholesale-costs">Your costs (marketing, earnest money at risk)</label><div class="inp"><span>$</span><input type="number" id="wholesale-costs" name="costs" value="2000" step="100" inputmode="decimal"></div></div></div>
-<div class="calc-actions"><button class="btn" type="reset">Reset to example</button></div>
+<div class="calc-actions"><button class="button ghost small" type="reset">Reset to example</button></div>
 </form>
 <div class="results" id="wholesale-results" aria-live="polite"><h2>Results</h2><div class="result key"><span>Maximum assignment fee</span><b data-out="max_fee" data-fmt="money">$10,000</b></div><div class="result"><span>Fee after your costs</span><b data-out="net_fee" data-fmt="money">$8,000</b></div><div class="result"><span>End buyer&#x27;s maximum price</span><b data-out="buyer_max" data-fmt="money">$135,000</b></div></div>
 </section><div class="ad-slot" data-ad="after_intro"></div><div class="prose"><h2>How is a wholesale assignment fee calculated?</h2>

@@ -19,7 +19,10 @@
 <meta property="og:url" content="https://realestate.samcbarth.com/calculators/mortgage-payment/">
 <meta property="og:image" content="https://realestate.samcbarth.com/assets/og/default.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#1f6f4a">
+<meta name="theme-color" content="#000000">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@900&family=Inter:wght@400;500;700&display=swap">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="Deal Math" href="/rss.xml">
 <link rel="alternate" type="application/feed+json" title="Deal Math Market Brief" href="/news/feed.json">
@@ -32,14 +35,14 @@
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-head"><div class="wrap">
-<a class="logo" href="/"><span class="logo-mark" aria-hidden="true">DM</span>Deal Math</a>
-<nav class="nav" aria-label="Main"><a href="/calculators/" aria-current="page">Calculators</a><a href="/guides/texas/">Texas guides</a><a href="/guides/oklahoma/">Oklahoma guides</a><a href="/counties/">Counties</a><a href="/news/">News</a><a href="/about/">About</a><button class="theme-toggle" type="button" aria-label="Toggle dark mode">Theme</button></nav>
+<a class="logo" href="/"><span class="dot" aria-hidden="true"></span>Deal Math</a>
+<nav class="nav" aria-label="Main"><a href="/calculators/" aria-current="page">Calculators</a><a href="/guides/texas/">Texas guides</a><a href="/guides/oklahoma/">Oklahoma guides</a><a href="/counties/">Counties</a><a href="/news/">News</a><a href="/about/">About</a></nav>
 </div></header>
 <div class="wrap layout has-side"><main id="main" class="main"><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Deal Math</a> / <a href="/calculators/">Calculators</a> / <span>Mortgage payment</span></nav><article class="prose-wrap"><h1>Mortgage payment calculator</h1><p class="answer">A monthly mortgage payment is principal and interest from the amortization formula, plus one twelfth of yearly property tax and insurance, plus PMI if the down payment is under 20%, plus any HOA dues. The calculator adds them all so you see the full monthly cost.</p><section class="calc" aria-label="Mortgage payment calculator">
 <form data-calc="mortgage" data-results="mortgage-results" novalidate>
 <h2>Mortgage payment inputs</h2>
 <div class="fields"><div class="field"><label for="mortgage-price">Home price</label><div class="inp"><span>$</span><input type="number" id="mortgage-price" name="price" value="350000" step="1000" inputmode="decimal"></div></div><div class="field"><label for="mortgage-down_pct">Down payment</label><div class="inp"><input type="number" id="mortgage-down_pct" name="down_pct" value="20" step="0.5" inputmode="decimal"><span>%</span></div></div><div class="field"><label for="mortgage-rate">Interest rate</label><div class="inp"><input type="number" id="mortgage-rate" name="rate" value="7.0" step="0.05" inputmode="decimal"><span>%</span></div></div><div class="field"><label for="mortgage-years">Loan term</label><div class="inp"><input type="number" id="mortgage-years" name="years" value="30" step="1" inputmode="decimal"><span>yrs</span></div></div><div class="field"><label for="mortgage-tax_yr">Property tax per year</label><div class="inp"><span>$</span><input type="number" id="mortgage-tax_yr" name="tax_yr" value="7000" step="100" inputmode="decimal"></div></div><div class="field"><label for="mortgage-ins_yr">Insurance per year</label><div class="inp"><span>$</span><input type="number" id="mortgage-ins_yr" name="ins_yr" value="2400" step="50" inputmode="decimal"></div></div><div class="field"><label for="mortgage-hoa_mo">HOA per month</label><div class="inp"><span>$</span><input type="number" id="mortgage-hoa_mo" name="hoa_mo" value="0" step="10" inputmode="decimal"></div></div><div class="field"><label for="mortgage-pmi_pct">PMI rate (if under 20% down)</label><div class="inp"><input type="number" id="mortgage-pmi_pct" name="pmi_pct" value="0.5" step="0.05" inputmode="decimal"><span>%/yr</span></div></div></div>
-<div class="calc-actions"><button class="btn" type="reset">Reset to example</button></div>
+<div class="calc-actions"><button class="button ghost small" type="reset">Reset to example</button></div>
 </form>
 <div class="results" id="mortgage-results" aria-live="polite"><h2>Results</h2><div class="result key"><span>Total monthly payment</span><b data-out="total" data-fmt="money">$2,646</b></div><div class="result"><span>Principal and interest</span><b data-out="pi" data-fmt="money">$1,863</b></div><div class="result"><span>Property tax</span><b data-out="tax_mo" data-fmt="money">$583</b></div><div class="result"><span>Insurance</span><b data-out="ins_mo" data-fmt="money">$200</b></div><div class="result"><span>PMI</span><b data-out="pmi_mo" data-fmt="money">$0</b></div><div class="result"><span>HOA</span><b data-out="hoa_mo" data-fmt="money">$0</b></div><div class="result"><span>Loan amount</span><b data-out="loan" data-fmt="money">$280,000</b></div><div class="result"><span>Total interest over the loan</span><b data-out="total_interest" data-fmt="money">$390,625</b></div></div>
 </section><div class="ad-slot" data-ad="after_intro"></div><div class="prose"><h2>How is a mortgage payment calculated?</h2>

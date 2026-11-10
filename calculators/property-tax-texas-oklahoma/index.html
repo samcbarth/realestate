@@ -19,7 +19,10 @@
 <meta property="og:url" content="https://realestate.samcbarth.com/calculators/property-tax-texas-oklahoma/">
 <meta property="og:image" content="https://realestate.samcbarth.com/assets/og/default.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#1f6f4a">
+<meta name="theme-color" content="#000000">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@900&family=Inter:wght@400;500;700&display=swap">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="Deal Math" href="/rss.xml">
 <link rel="alternate" type="application/feed+json" title="Deal Math Market Brief" href="/news/feed.json">
@@ -32,21 +35,21 @@
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-head"><div class="wrap">
-<a class="logo" href="/"><span class="logo-mark" aria-hidden="true">DM</span>Deal Math</a>
-<nav class="nav" aria-label="Main"><a href="/calculators/" aria-current="page">Calculators</a><a href="/guides/texas/">Texas guides</a><a href="/guides/oklahoma/">Oklahoma guides</a><a href="/counties/">Counties</a><a href="/news/">News</a><a href="/about/">About</a><button class="theme-toggle" type="button" aria-label="Toggle dark mode">Theme</button></nav>
+<a class="logo" href="/"><span class="dot" aria-hidden="true"></span>Deal Math</a>
+<nav class="nav" aria-label="Main"><a href="/calculators/" aria-current="page">Calculators</a><a href="/guides/texas/">Texas guides</a><a href="/guides/oklahoma/">Oklahoma guides</a><a href="/counties/">Counties</a><a href="/news/">News</a><a href="/about/">About</a></nav>
 </div></header>
 <div class="wrap layout has-side"><main id="main" class="main"><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Deal Math</a> / <a href="/calculators/">Calculators</a> / <span>TX and OK property tax</span></nav><article class="prose-wrap"><h1>Property tax calculator for Texas and Oklahoma</h1><p class="answer">Texas property tax is the appraised value minus exemptions, times each local rate per $100 of value; the school district homestead exemption is $140,000. Oklahoma property tax is fair cash value times the county's assessment ratio, minus a $1,000 homestead exemption, times the millage rate per $1,000.</p><section class="calc" aria-label="Texas property tax calculator">
 <form data-calc="proptax_tx" data-results="proptax_tx-results" novalidate>
 <h2>Texas property tax inputs</h2>
 <div class="fields"><div class="field"><label for="proptax_tx-value">Appraised value</label><div class="inp"><span>$</span><input type="number" id="proptax_tx-value" name="value" value="350000" step="1000" inputmode="decimal"></div></div><div class="field check"><label for="proptax_tx-homestead"><input type="checkbox" id="proptax_tx-homestead" name="homestead" checked> Residence homestead</label></div><div class="field check"><label for="proptax_tx-over65"><input type="checkbox" id="proptax_tx-over65" name="over65"> Owner 65+ or disabled</label></div><div class="field"><label for="proptax_tx-school_rate">School district rate</label><div class="inp"><input type="number" id="proptax_tx-school_rate" name="school_rate" value="1.0" step="0.001" inputmode="decimal"><span>per $100</span></div></div><div class="field"><label for="proptax_tx-county_rate">County rate</label><div class="inp"><input type="number" id="proptax_tx-county_rate" name="county_rate" value="0.35" step="0.001" inputmode="decimal"><span>per $100</span></div></div><div class="field"><label for="proptax_tx-city_rate">City rate</label><div class="inp"><input type="number" id="proptax_tx-city_rate" name="city_rate" value="0.55" step="0.001" inputmode="decimal"><span>per $100</span></div></div><div class="field"><label for="proptax_tx-other_rate">Other units (college, hospital, MUD)</label><div class="inp"><input type="number" id="proptax_tx-other_rate" name="other_rate" value="0.3" step="0.001" inputmode="decimal"><span>per $100</span></div></div><div class="field"><label for="proptax_tx-local_pct">Local optional homestead exemption</label><div class="inp"><input type="number" id="proptax_tx-local_pct" name="local_pct" value="0" step="1" inputmode="decimal"><span>%</span></div></div></div>
-<div class="calc-actions"><button class="btn" type="reset">Reset to example</button></div>
+<div class="calc-actions"><button class="button ghost small" type="reset">Reset to example</button></div>
 </form>
 <div class="results" id="proptax_tx-results" aria-live="polite"><h2>Results</h2><div class="result key"><span>Estimated yearly tax</span><b data-out="total" data-fmt="money">$6,300</b></div><div class="result"><span>Per month</span><b data-out="monthly" data-fmt="money">$525</b></div><div class="result"><span>School district tax</span><b data-out="school_tax" data-fmt="money">$2,100</b></div><div class="result"><span>County, city and other units</span><b data-out="other_tax" data-fmt="money">$4,200</b></div><div class="result"><span>School taxable value</span><b data-out="school_taxable" data-fmt="money">$210,000</b></div><div class="result"><span>Effective tax rate</span><b data-out="effective" data-fmt="pct">1.80%</b></div></div>
 </section><section class="calc" aria-label="Oklahoma property tax calculator">
 <form data-calc="proptax_ok" data-results="proptax_ok-results" novalidate>
 <h2>Oklahoma property tax inputs</h2>
 <div class="fields"><div class="field"><label for="proptax_ok-value">Fair cash value</label><div class="inp"><span>$</span><input type="number" id="proptax_ok-value" name="value" value="250000" step="1000" inputmode="decimal"></div></div><div class="field"><label for="proptax_ok-ratio">Assessment ratio</label><div class="inp"><input type="number" id="proptax_ok-ratio" name="ratio" value="11" step="0.1" inputmode="decimal"><span>%</span></div></div><div class="field check"><label for="proptax_ok-homestead"><input type="checkbox" id="proptax_ok-homestead" name="homestead" checked> Homestead exemption</label></div><div class="field"><label for="proptax_ok-mills">Total millage</label><div class="inp"><input type="number" id="proptax_ok-mills" name="mills" value="110" step="0.1" inputmode="decimal"><span>mills</span></div></div></div>
-<div class="calc-actions"><button class="btn" type="reset">Reset to example</button></div>
+<div class="calc-actions"><button class="button ghost small" type="reset">Reset to example</button></div>
 </form>
 <div class="results" id="proptax_ok-results" aria-live="polite"><h2>Results</h2><div class="result key"><span>Estimated yearly tax</span><b data-out="total" data-fmt="money">$2,915</b></div><div class="result"><span>Per month</span><b data-out="monthly" data-fmt="money">$243</b></div><div class="result"><span>Assessed value</span><b data-out="assessed" data-fmt="money">$27,500</b></div><div class="result"><span>Net assessed (after homestead)</span><b data-out="net_assessed" data-fmt="money">$26,500</b></div><div class="result"><span>Effective tax rate</span><b data-out="effective" data-fmt="pct">1.17%</b></div></div>
 </section><div class="ad-slot" data-ad="after_intro"></div><div class="prose"><h2>How is property tax calculated in Texas?</h2>

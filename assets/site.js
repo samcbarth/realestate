@@ -1,23 +1,13 @@
-/* Theme toggle + ad slots. Ad slots render nothing until ADSENSE_CLIENT and a
+/* Sticky-nav scroll state + ad slots. Ad slots render nothing until ADSENSE_CLIENT and a
    slot id are set in site.json (which build.py writes into assets/config.js). */
 (function () {
   'use strict';
-  var root = document.documentElement;
-  try {
-    var saved = localStorage.getItem('theme');
-    if (saved === 'dark' || saved === 'light') root.setAttribute('data-theme', saved);
-  } catch (e) { /* storage blocked */ }
-
   document.addEventListener('DOMContentLoaded', function () {
-    var btn = document.querySelector('.theme-toggle');
-    if (btn) {
-      btn.addEventListener('click', function () {
-        var dark = root.getAttribute('data-theme') === 'dark' ||
-          (!root.getAttribute('data-theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
-        var next = dark ? 'light' : 'dark';
-        root.setAttribute('data-theme', next);
-        try { localStorage.setItem('theme', next); } catch (e) { /* ignore */ }
-      });
+    var head = document.querySelector('.site-head');
+    if (head) {
+      var onScroll = function () { head.classList.toggle('is-stuck', window.scrollY > 8); };
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
     }
 
     var cfg = window.SITE_CONFIG || {};
