@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-KMS4X55L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rental Property Cash Flow and Cap Rate Calculator | Deal Math</title>
+<meta name="description" content="Calculate monthly cash flow, cap rate, NOI, cash-on-cash return and DSCR for a rental property, with the formulas and a worked example.">
+<link rel="canonical" href="https://realestate.samcbarth.com/calculators/rental-cash-flow-cap-rate/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Deal Math">
+<meta property="og:title" content="Rental Property Cash Flow and Cap Rate Calculator">
+<meta property="og:description" content="Calculate monthly cash flow, cap rate, NOI, cash-on-cash return and DSCR for a rental property, with the formulas and a worked example.">
+<meta property="og:url" content="https://realestate.samcbarth.com/calculators/rental-cash-flow-cap-rate/">
+<meta property="og:image" content="https://realestate.samcbarth.com/assets/og/default.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1f6f4a">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="Deal Math" href="/rss.xml">
+<link rel="alternate" type="application/feed+json" title="Deal Math Market Brief" href="/news/feed.json">
+<link rel="stylesheet" href="/assets/style.css">
+<script src="/assets/config.js"></script>
+<script src="/assets/site.js" defer></script>
+<script src="/assets/calc.js" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Rental property cash flow and cap rate calculator", "applicationCategory": "FinanceApplication", "operatingSystem": "Any (web browser)", "url": "https://realestate.samcbarth.com/calculators/rental-cash-flow-cap-rate/", "description": "Calculate monthly cash flow, cap rate, NOI, cash-on-cash return and DSCR for a rental property, with the formulas and a worked example.", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Rental Property Cash Flow and Cap Rate Calculator", "description": "Calculate monthly cash flow, cap rate, NOI, cash-on-cash return and DSCR for a rental property, with the formulas and a worked example.", "url": "https://realestate.samcbarth.com/calculators/rental-cash-flow-cap-rate/", "mainEntityOfPage": "https://realestate.samcbarth.com/calculators/rental-cash-flow-cap-rate/", "datePublished": "2026-11-09", "dateModified": "2026-11-09", "author": {"@type": "Person", "name": "Sam Barth", "url": "https://samcbarth.com"}, "publisher": {"@type": "Organization", "name": "Deal Math", "url": "https://realestate.samcbarth.com/"}, "image": "https://realestate.samcbarth.com/assets/og/default.jpg"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is a good cap rate for a rental property?", "acceptedAnswer": {"@type": "Answer", "text": "There is no single good number. Cap rate reflects price relative to income, so it depends on the market, the property's condition and the risk of the area. Compare a deal's cap rate with recent sales of similar properties in the same area rather than with a national rule of thumb."}}, {"@type": "Question", "name": "Does cap rate include the mortgage?", "acceptedAnswer": {"@type": "Answer", "text": "No. Cap rate uses net operating income, which is calculated before any loan payment. That is what makes it useful for comparing properties regardless of how each buyer finances them. Cash flow and cash-on-cash return are the measures that include the mortgage."}}, {"@type": "Question", "name": "What is DSCR?", "acceptedAnswer": {"@type": "Answer", "text": "Debt service coverage ratio is NOI divided by the yearly mortgage payments. A DSCR of 1.00 means the property's income exactly covers the loan payments. Lenders that make DSCR loans set their own minimum, so check each lender's requirement."}}, {"@type": "Question", "name": "Why do the expense percentages use rent instead of a dollar amount?", "acceptedAnswer": {"@type": "Answer", "text": "Maintenance, management and capital expense reserves are commonly budgeted as a share of rent. If you have real quotes, such as a property manager's fee schedule, change the percentage to match them."}}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Deal Math", "item": "https://realestate.samcbarth.com/"}, {"@type": "ListItem", "position": 2, "name": "Calculators", "item": "https://realestate.samcbarth.com/calculators/"}, {"@type": "ListItem", "position": 3, "name": "Cash flow and cap rate", "item": "https://realestate.samcbarth.com/calculators/rental-cash-flow-cap-rate/"}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head"><div class="wrap">
+<a class="logo" href="/"><span class="logo-mark" aria-hidden="true">DM</span>Deal Math</a>
+<nav class="nav" aria-label="Main"><a href="/calculators/" aria-current="page">Calculators</a><a href="/guides/texas/">Texas guides</a><a href="/guides/oklahoma/">Oklahoma guides</a><a href="/counties/">Counties</a><a href="/news/">News</a><a href="/about/">About</a><button class="theme-toggle" type="button" aria-label="Toggle dark mode">Theme</button></nav>
+</div></header>
+<div class="wrap layout has-side"><main id="main" class="main"><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Deal Math</a> / <a href="/calculators/">Calculators</a> / <span>Cash flow and cap rate</span></nav><article class="prose-wrap"><h1>Rental property cash flow and cap rate calculator</h1><p class="answer">Cash flow is rent minus vacancy, operating expenses and the mortgage payment. Cap rate is net operating income (NOI) divided by the purchase price, and it ignores financing. Enter the deal below to see both, plus cash-on-cash return and debt service coverage.</p><section class="calc" aria-label="Rental property calculator">
+<form data-calc="rental" data-results="rental-results" novalidate>
+<h2>Rental property inputs</h2>
+<div class="fields"><div class="field"><label for="rental-price">Purchase price</label><div class="inp"><span>$</span><input type="number" id="rental-price" name="price" value="250000" step="1000" inputmode="decimal"></div></div><div class="field"><label for="rental-closing">Closing costs</label><div class="inp"><span>$</span><input type="number" id="rental-closing" name="closing" value="7500" step="100" inputmode="decimal"></div></div><div class="field"><label for="rental-down_pct">Down payment</label><div class="inp"><input type="number" id="rental-down_pct" name="down_pct" value="25" step="0.5" inputmode="decimal"><span>%</span></div></div><div class="field"><label for="rental-rate">Interest rate</label><div class="inp"><input type="number" id="rental-rate" name="rate" value="7.25" step="0.05" inputmode="decimal"><span>%</span></div></div><div class="field"><label for="rental-years">Loan term</label><div class="inp"><input type="number" id="rental-years" name="years" value="30" step="1" inputmode="decimal"><span>yrs</span></div></div><div class="field"><label for="rental-rent">Monthly rent</label><div class="inp"><span>$</span><input type="number" id="rental-rent" name="rent" value="2200" step="25" inputmode="decimal"></div></div><div class="field"><label for="rental-other_income">Other income per month</label><div class="inp"><span>$</span><input type="number" id="rental-other_income" name="other_income" value="0" step="10" inputmode="decimal"></div></div><div class="field"><label for="rental-vacancy">Vacancy</label><div class="inp"><input type="number" id="rental-vacancy" name="vacancy" value="6" step="0.5" inputmode="decimal"><span>%</span></div></div><div class="field"><label for="rental-tax_yr">Property tax per year</label><div class="inp"><span>$</span><input type="number" id="rental-tax_yr" name="tax_yr" value="5000" step="100" inputmode="decimal"></div></div><div class="field"><label for="rental-ins_yr">Insurance per year</label><div class="inp"><span>$</span><input type="number" id="rental-ins_yr" name="ins_yr" value="2000" step="50" inputmode="decimal"></div></div><div class="field"><label for="rental-hoa_mo">HOA per month</label><div class="inp"><span>$</span><input type="number" id="rental-hoa_mo" name="hoa_mo" value="0" step="10" inputmode="decimal"></div></div><div class="field"><label for="rental-utilities_mo">Owner-paid utilities per month</label><div class="inp"><span>$</span><input type="number" id="rental-utilities_mo" name="utilities_mo" value="0" step="10" inputmode="decimal"></div></div><div class="field"><label for="rental-maint">Maintenance (% of rent)</label><div class="inp"><input type="number" id="rental-maint" name="maint" value="5" step="0.5" inputmode="decimal"><span>%</span></div></div><div class="field"><label for="rental-mgmt">Management (% of rent)</label><div class="inp"><input type="number" id="rental-mgmt" name="mgmt" value="8" step="0.5" inputmode="decimal"><span>%</span></div></div><div class="field"><label for="rental-capex">CapEx reserve (% of rent)</label><div class="inp"><input type="number" id="rental-capex" name="capex" value="5" step="0.5" inputmode="decimal"><span>%</span></div></div></div>
+<div class="calc-actions"><button class="btn" type="reset">Reset to example</button></div>
+</form>
+<div class="results" id="rental-results" aria-live="polite"><h2>Results</h2><div class="result key"><span>Monthly cash flow</span><b data-out="cashflow_mo" data-fmt="money">-$190</b></div><div class="result key"><span>Cap rate</span><b data-out="cap_rate" data-fmt="pct">5.23%</b></div><div class="result"><span>Cash-on-cash return</span><b data-out="coc" data-fmt="pct">-3.26%</b></div><div class="result"><span>Net operating income (yearly)</span><b data-out="noi" data-fmt="money">$13,064</b></div><div class="result"><span>Effective gross income (yearly)</span><b data-out="egi" data-fmt="money">$24,816</b></div><div class="result"><span>Operating expenses (yearly)</span><b data-out="opex" data-fmt="money">$11,752</b></div><div class="result"><span>Mortgage payment (P&amp;I)</span><b data-out="debt_mo" data-fmt="money">$1,279</b></div><div class="result"><span>Cash invested</span><b data-out="cash_in" data-fmt="money">$70,000</b></div><div class="result"><span>Debt service coverage ratio</span><b data-out="dscr" data-fmt="ratio">0.85</b></div></div>
+</section><div class="ad-slot" data-ad="after_intro"></div><div class="prose"><h2>How do you calculate rental property cash flow?</h2>
+<p>Monthly cash flow is what is left after every cost of owning the property, including the loan. The calculator works through it in this order:</p>
+<ol>
+<li><strong>Gross income</strong> = (monthly rent + other income) x 12</li>
+<li><strong>Effective gross income (EGI)</strong> = gross income minus the vacancy allowance</li>
+<li><strong>Operating expenses</strong> = property tax + insurance + HOA + owner-paid utilities + maintenance, management and CapEx reserves (each a percentage of rent)</li>
+<li><strong>Net operating income (NOI)</strong> = EGI minus operating expenses</li>
+<li><strong>Cash flow</strong> = NOI minus yearly principal and interest, then divided by 12 for the monthly figure</li>
+</ol>
+
+<h2>How do you calculate cap rate?</h2>
+<p>Cap rate = NOI / purchase price x 100. It answers one question: if you bought the property with cash, what yearly return would its income produce? Because it leaves out financing, two investors with different loans see the same cap rate on the same property.</p>
+<div class="ad-slot" data-ad="mid_content"></div>
+<h2>Worked example</h2>
+<p>Take the example already loaded in the calculator: a $250,000 single-family rental renting for $2,200 a month, bought with 25% down at 7.25% on a 30-year loan.</p>
+<ul>
+<li>Gross income: $26,400 a year. After a 6% vacancy allowance, EGI is $24,816.</li>
+<li>Operating expenses: $5,000 property tax, $2,000 insurance, and maintenance, management and CapEx reserves of 5%, 8% and 5% of rent. Total: $11,752.</li>
+<li>NOI: $13,064, so the cap rate is 5.23%.</li>
+<li>The mortgage payment is $1,279 a month. Monthly cash flow comes to -$190, and cash-on-cash return on the $70,000 invested is -3.26%. DSCR is 0.85.</li>
+</ul>
+<p>This example shows a common situation when mortgage rates are high: the property earns a positive NOI, but the loan payment is larger than what is left. Try a bigger down payment, a lower price, or higher rent to see what it would take to break even.</p>
+
+<h2>Which numbers matter most?</h2>
+<p>Property tax and insurance are often underestimated. In Texas and Oklahoma, tax is set by local rates, so look up the actual rate for the property with the <a href="/calculators/property-tax-texas-oklahoma/">property tax calculator</a> instead of guessing. Get an insurance quote before you make an offer.</p><section class="faq"><h2>Frequently asked questions</h2><h3>What is a good cap rate for a rental property?</h3><p>There is no single good number. Cap rate reflects price relative to income, so it depends on the market, the property's condition and the risk of the area. Compare a deal's cap rate with recent sales of similar properties in the same area rather than with a national rule of thumb.</p><h3>Does cap rate include the mortgage?</h3><p>No. Cap rate uses net operating income, which is calculated before any loan payment. That is what makes it useful for comparing properties regardless of how each buyer finances them. Cash flow and cash-on-cash return are the measures that include the mortgage.</p><h3>What is DSCR?</h3><p>Debt service coverage ratio is NOI divided by the yearly mortgage payments. A DSCR of 1.00 means the property's income exactly covers the loan payments. Lenders that make DSCR loans set their own minimum, so check each lender's requirement.</p><h3>Why do the expense percentages use rent instead of a dollar amount?</h3><p>Maintenance, management and capital expense reserves are commonly budgeted as a share of rent. If you have real quotes, such as a property manager's fee schedule, change the percentage to match them.</p></section><h2>Related</h2><div class="grid"><a class="card" href="/calculators/rental-yield/"><h3>Rental yield calculator</h3><p>Calculate gross and net rental yield from purchase price, rent and expenses, with the formulas, a worked example and how yield differs from cap rate.</p></a><a class="card" href="/calculators/mortgage-payment/"><h3>Mortgage payment calculator</h3><p>Estimate a monthly mortgage payment including principal, interest, property tax, insurance, PMI and HOA, with the amortization formula and a worked example.</p></a><a class="card" href="/calculators/brrrr/"><h3>BRRRR calculator</h3><p>Run a BRRRR deal (buy, rehab, rent, refinance, repeat): all-in cost, refinance loan, cash left in the deal, cash flow and cash-on-cash return.</p></a><a class="card" href="/calculators/property-tax-texas-oklahoma/"><h3>Property tax calculator for Texas and Oklahoma</h3><p>Estimate yearly property tax in Texas (rates per $100, $140,000 school homestead exemption) or Oklahoma (assessment ratio, $1,000 homestead exemption, millage).</p></a></div><p class="meta">Last updated 2026-11-09. Results are estimates for planning; they are not lender quotes or tax bills.</p></div><div class="ad-slot" data-ad="end_content"></div></article></main><aside class="side"><div class="sticky"><div class="note"><strong>Calculators</strong><ul><li><a href="/calculators/rental-cash-flow-cap-rate/">Cash flow and cap rate</a></li><li><a href="/calculators/rental-yield/">Rental yield</a></li><li><a href="/calculators/mortgage-payment/">Mortgage payment</a></li><li><a href="/calculators/fix-and-flip/">Fix and flip</a></li><li><a href="/calculators/brrrr/">BRRRR</a></li><li><a href="/calculators/70-percent-rule/">70% rule</a></li><li><a href="/calculators/wholesale-assignment-fee/">Wholesale fee</a></li><li><a href="/calculators/property-tax-texas-oklahoma/">TX and OK property tax</a></li></ul></div><div class="ad-slot" data-ad="sidebar"></div></div></aside></div><footer class="site-foot"><div class="wrap">
+<div class="foot-cols">
+<div><h4>Deal Math</h4><p>Real estate investing calculators and Texas and Oklahoma investor guides.</p></div>
+<div><h4>Calculators</h4><ul>
+<li><a href="/calculators/rental-cash-flow-cap-rate/">Cash flow and cap rate</a></li>
+<li><a href="/calculators/fix-and-flip/">Fix and flip</a></li>
+<li><a href="/calculators/brrrr/">BRRRR</a></li>
+<li><a href="/calculators/70-percent-rule/">70% rule</a></li>
+<li><a href="/calculators/">All calculators</a></li></ul></div>
+<div><h4>Guides</h4><ul>
+<li><a href="/guides/texas/">Texas investor guides</a></li>
+<li><a href="/guides/oklahoma/">Oklahoma investor guides</a></li>
+<li><a href="/counties/">County resources</a></li>
+<li><a href="/news/">Deal Math Market Brief</a></li></ul></div>
+<div><h4>Site</h4><ul>
+<li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li>
+<li><a href="/privacy/">Privacy Policy</a></li><li><a href="/terms/">Terms</a></li>
+<li><a href="/rss.xml">RSS</a></li></ul></div>
+</div>
+<p class="disclaimer">Educational information only, not legal, tax, or financial advice. Laws and county procedures change; confirm with the official source and a licensed professional before you bid, buy, or sign.</p>
+<nav class="network" aria-label="samcbarth.com network"><strong>samcbarth.com network:</strong> <a href="https://realestate.samcbarth.com/" aria-current="true">Real Estate</a> <a href="https://tools.samcbarth.com/">Tools</a> <a href="https://games.samcbarth.com/">Games</a> <a href="https://streaming.samcbarth.com/">Streaming</a> <a href="https://homerepair.samcbarth.com/">Home Repair</a> <a href="https://deals.samcbarth.com/">Deals</a> <a href="https://news.samcbarth.com/">News</a></nav>
+<p class="disclaimer">&copy; 2026 Sam Barth. Deal Math is part of the samcbarth.com network.</p>
+</div></footer>
+</body>
+</html>

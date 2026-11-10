@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-KMS4X55L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mortgage Payment Calculator with Taxes, Insurance and PMI | Deal Math</title>
+<meta name="description" content="Estimate a monthly mortgage payment including principal, interest, property tax, insurance, PMI and HOA, with the amortization formula and a worked example.">
+<link rel="canonical" href="https://realestate.samcbarth.com/calculators/mortgage-payment/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Deal Math">
+<meta property="og:title" content="Mortgage Payment Calculator with Taxes, Insurance and PMI">
+<meta property="og:description" content="Estimate a monthly mortgage payment including principal, interest, property tax, insurance, PMI and HOA, with the amortization formula and a worked example.">
+<meta property="og:url" content="https://realestate.samcbarth.com/calculators/mortgage-payment/">
+<meta property="og:image" content="https://realestate.samcbarth.com/assets/og/default.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1f6f4a">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="Deal Math" href="/rss.xml">
+<link rel="alternate" type="application/feed+json" title="Deal Math Market Brief" href="/news/feed.json">
+<link rel="stylesheet" href="/assets/style.css">
+<script src="/assets/config.js"></script>
+<script src="/assets/site.js" defer></script>
+<script src="/assets/calc.js" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Mortgage payment calculator", "applicationCategory": "FinanceApplication", "operatingSystem": "Any (web browser)", "url": "https://realestate.samcbarth.com/calculators/mortgage-payment/", "description": "Estimate a monthly mortgage payment including principal, interest, property tax, insurance, PMI and HOA, with the amortization formula and a worked example.", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Mortgage Payment Calculator with Taxes, Insurance and PMI", "description": "Estimate a monthly mortgage payment including principal, interest, property tax, insurance, PMI and HOA, with the amortization formula and a worked example.", "url": "https://realestate.samcbarth.com/calculators/mortgage-payment/", "mainEntityOfPage": "https://realestate.samcbarth.com/calculators/mortgage-payment/", "datePublished": "2026-11-09", "dateModified": "2026-11-09", "author": {"@type": "Person", "name": "Sam Barth", "url": "https://samcbarth.com"}, "publisher": {"@type": "Organization", "name": "Deal Math", "url": "https://realestate.samcbarth.com/"}, "image": "https://realestate.samcbarth.com/assets/og/default.jpg"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What formula is used for the principal and interest payment?", "acceptedAnswer": {"@type": "Answer", "text": "Payment = L x r / (1 - (1 + r)^-n), where L is the loan amount, r is the yearly rate divided by 12, and n is the number of monthly payments. This is the standard formula for a fixed-rate, fully amortizing loan."}}, {"@type": "Question", "name": "How is PMI estimated?", "acceptedAnswer": {"@type": "Answer", "text": "The calculator multiplies the loan amount by the yearly PMI rate you enter and divides by 12. It only applies PMI when the down payment is under 20%. Actual PMI pricing depends on your lender, credit and loan type, so replace the example rate with a quote."}}, {"@type": "Question", "name": "Where can I find current mortgage rates?", "acceptedAnswer": {"@type": "Answer", "text": "Freddie Mac publishes a weekly national average in its Primary Mortgage Market Survey. Our news section summarizes it, but the rate you are offered depends on your credit, loan type and lender."}}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Deal Math", "item": "https://realestate.samcbarth.com/"}, {"@type": "ListItem", "position": 2, "name": "Calculators", "item": "https://realestate.samcbarth.com/calculators/"}, {"@type": "ListItem", "position": 3, "name": "Mortgage payment", "item": "https://realestate.samcbarth.com/calculators/mortgage-payment/"}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head"><div class="wrap">
+<a class="logo" href="/"><span class="logo-mark" aria-hidden="true">DM</span>Deal Math</a>
+<nav class="nav" aria-label="Main"><a href="/calculators/" aria-current="page">Calculators</a><a href="/guides/texas/">Texas guides</a><a href="/guides/oklahoma/">Oklahoma guides</a><a href="/counties/">Counties</a><a href="/news/">News</a><a href="/about/">About</a><button class="theme-toggle" type="button" aria-label="Toggle dark mode">Theme</button></nav>
+</div></header>
+<div class="wrap layout has-side"><main id="main" class="main"><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Deal Math</a> / <a href="/calculators/">Calculators</a> / <span>Mortgage payment</span></nav><article class="prose-wrap"><h1>Mortgage payment calculator</h1><p class="answer">A monthly mortgage payment is principal and interest from the amortization formula, plus one twelfth of yearly property tax and insurance, plus PMI if the down payment is under 20%, plus any HOA dues. The calculator adds them all so you see the full monthly cost.</p><section class="calc" aria-label="Mortgage payment calculator">
+<form data-calc="mortgage" data-results="mortgage-results" novalidate>
+<h2>Mortgage payment inputs</h2>
+<div class="fields"><div class="field"><label for="mortgage-price">Home price</label><div class="inp"><span>$</span><input type="number" id="mortgage-price" name="price" value="350000" step="1000" inputmode="decimal"></div></div><div class="field"><label for="mortgage-down_pct">Down payment</label><div class="inp"><input type="number" id="mortgage-down_pct" name="down_pct" value="20" step="0.5" inputmode="decimal"><span>%</span></div></div><div class="field"><label for="mortgage-rate">Interest rate</label><div class="inp"><input type="number" id="mortgage-rate" name="rate" value="7.0" step="0.05" inputmode="decimal"><span>%</span></div></div><div class="field"><label for="mortgage-years">Loan term</label><div class="inp"><input type="number" id="mortgage-years" name="years" value="30" step="1" inputmode="decimal"><span>yrs</span></div></div><div class="field"><label for="mortgage-tax_yr">Property tax per year</label><div class="inp"><span>$</span><input type="number" id="mortgage-tax_yr" name="tax_yr" value="7000" step="100" inputmode="decimal"></div></div><div class="field"><label for="mortgage-ins_yr">Insurance per year</label><div class="inp"><span>$</span><input type="number" id="mortgage-ins_yr" name="ins_yr" value="2400" step="50" inputmode="decimal"></div></div><div class="field"><label for="mortgage-hoa_mo">HOA per month</label><div class="inp"><span>$</span><input type="number" id="mortgage-hoa_mo" name="hoa_mo" value="0" step="10" inputmode="decimal"></div></div><div class="field"><label for="mortgage-pmi_pct">PMI rate (if under 20% down)</label><div class="inp"><input type="number" id="mortgage-pmi_pct" name="pmi_pct" value="0.5" step="0.05" inputmode="decimal"><span>%/yr</span></div></div></div>
+<div class="calc-actions"><button class="btn" type="reset">Reset to example</button></div>
+</form>
+<div class="results" id="mortgage-results" aria-live="polite"><h2>Results</h2><div class="result key"><span>Total monthly payment</span><b data-out="total" data-fmt="money">$2,646</b></div><div class="result"><span>Principal and interest</span><b data-out="pi" data-fmt="money">$1,863</b></div><div class="result"><span>Property tax</span><b data-out="tax_mo" data-fmt="money">$583</b></div><div class="result"><span>Insurance</span><b data-out="ins_mo" data-fmt="money">$200</b></div><div class="result"><span>PMI</span><b data-out="pmi_mo" data-fmt="money">$0</b></div><div class="result"><span>HOA</span><b data-out="hoa_mo" data-fmt="money">$0</b></div><div class="result"><span>Loan amount</span><b data-out="loan" data-fmt="money">$280,000</b></div><div class="result"><span>Total interest over the loan</span><b data-out="total_interest" data-fmt="money">$390,625</b></div></div>
+</section><div class="ad-slot" data-ad="after_intro"></div><div class="prose"><h2>How is a mortgage payment calculated?</h2>
+<p>Principal and interest (P&amp;I) come from the amortization formula: payment = L x r / (1 - (1 + r)<sup>-n</sup>). L is the loan amount, r is the monthly interest rate (yearly rate / 12) and n is the number of payments (years x 12). The payment stays the same for the life of a fixed-rate loan; early payments are mostly interest and later payments are mostly principal.</p>
+<p>Most lenders also collect property tax and insurance each month through an escrow account, so the calculator adds one twelfth of each yearly amount. PMI is added when the down payment is under 20%, and HOA dues are added as entered.</p>
+<div class="ad-slot" data-ad="mid_content"></div>
+<h2>Worked example</h2>
+<p>A $350,000 home with 20% down ($70,000) leaves a $280,000 loan. At 7.00% for 30 years:</p>
+<ul>
+<li>Principal and interest: $1,863 a month</li>
+<li>Property tax: $7,000 a year, or $583 a month</li>
+<li>Insurance: $2,400 a year, or $200 a month</li>
+<li>PMI: $0, because the down payment is 20%</li>
+<li>Total monthly payment: $2,646</li>
+</ul>
+<p>Over the full term, interest adds up to $390,625, more than the loan itself. Try a 15-year term to see how much interest a shorter loan saves and how much the monthly payment rises.</p>
+
+<h2>Using this for investment property</h2>
+<p>Lenders typically price investment property loans differently from loans on a home you live in, and down payment requirements are often higher. Get a quote for the loan type you will actually use, then plug the payment into the <a href="/calculators/rental-cash-flow-cap-rate/">cash flow calculator</a>.</p><section class="faq"><h2>Frequently asked questions</h2><h3>What formula is used for the principal and interest payment?</h3><p>Payment = L x r / (1 - (1 + r)^-n), where L is the loan amount, r is the yearly rate divided by 12, and n is the number of monthly payments. This is the standard formula for a fixed-rate, fully amortizing loan.</p><h3>How is PMI estimated?</h3><p>The calculator multiplies the loan amount by the yearly PMI rate you enter and divides by 12. It only applies PMI when the down payment is under 20%. Actual PMI pricing depends on your lender, credit and loan type, so replace the example rate with a quote.</p><h3>Where can I find current mortgage rates?</h3><p>Freddie Mac publishes a weekly national average in its Primary Mortgage Market Survey. Our news section summarizes it, but the rate you are offered depends on your credit, loan type and lender.</p></section><h2>Related</h2><div class="grid"><a class="card" href="/calculators/rental-cash-flow-cap-rate/"><h3>Rental property cash flow and cap rate calculator</h3><p>Calculate monthly cash flow, cap rate, NOI, cash-on-cash return and DSCR for a rental property, with the formulas and a worked example.</p></a><a class="card" href="/calculators/property-tax-texas-oklahoma/"><h3>Property tax calculator for Texas and Oklahoma</h3><p>Estimate yearly property tax in Texas (rates per $100, $140,000 school homestead exemption) or Oklahoma (assessment ratio, $1,000 homestead exemption, millage).</p></a><a class="card" href="/calculators/brrrr/"><h3>BRRRR calculator</h3><p>Run a BRRRR deal (buy, rehab, rent, refinance, repeat): all-in cost, refinance loan, cash left in the deal, cash flow and cash-on-cash return.</p></a></div><p class="meta">Last updated 2026-11-09. Results are estimates for planning; they are not lender quotes or tax bills.</p></div><div class="ad-slot" data-ad="end_content"></div></article></main><aside class="side"><div class="sticky"><div class="note"><strong>Calculators</strong><ul><li><a href="/calculators/rental-cash-flow-cap-rate/">Cash flow and cap rate</a></li><li><a href="/calculators/rental-yield/">Rental yield</a></li><li><a href="/calculators/mortgage-payment/">Mortgage payment</a></li><li><a href="/calculators/fix-and-flip/">Fix and flip</a></li><li><a href="/calculators/brrrr/">BRRRR</a></li><li><a href="/calculators/70-percent-rule/">70% rule</a></li><li><a href="/calculators/wholesale-assignment-fee/">Wholesale fee</a></li><li><a href="/calculators/property-tax-texas-oklahoma/">TX and OK property tax</a></li></ul></div><div class="ad-slot" data-ad="sidebar"></div></div></aside></div><footer class="site-foot"><div class="wrap">
+<div class="foot-cols">
+<div><h4>Deal Math</h4><p>Real estate investing calculators and Texas and Oklahoma investor guides.</p></div>
+<div><h4>Calculators</h4><ul>
+<li><a href="/calculators/rental-cash-flow-cap-rate/">Cash flow and cap rate</a></li>
+<li><a href="/calculators/fix-and-flip/">Fix and flip</a></li>
+<li><a href="/calculators/brrrr/">BRRRR</a></li>
+<li><a href="/calculators/70-percent-rule/">70% rule</a></li>
+<li><a href="/calculators/">All calculators</a></li></ul></div>
+<div><h4>Guides</h4><ul>
+<li><a href="/guides/texas/">Texas investor guides</a></li>
+<li><a href="/guides/oklahoma/">Oklahoma investor guides</a></li>
+<li><a href="/counties/">County resources</a></li>
+<li><a href="/news/">Deal Math Market Brief</a></li></ul></div>
+<div><h4>Site</h4><ul>
+<li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li>
+<li><a href="/privacy/">Privacy Policy</a></li><li><a href="/terms/">Terms</a></li>
+<li><a href="/rss.xml">RSS</a></li></ul></div>
+</div>
+<p class="disclaimer">Educational information only, not legal, tax, or financial advice. Laws and county procedures change; confirm with the official source and a licensed professional before you bid, buy, or sign.</p>
+<nav class="network" aria-label="samcbarth.com network"><strong>samcbarth.com network:</strong> <a href="https://realestate.samcbarth.com/" aria-current="true">Real Estate</a> <a href="https://tools.samcbarth.com/">Tools</a> <a href="https://games.samcbarth.com/">Games</a> <a href="https://streaming.samcbarth.com/">Streaming</a> <a href="https://homerepair.samcbarth.com/">Home Repair</a> <a href="https://deals.samcbarth.com/">Deals</a> <a href="https://news.samcbarth.com/">News</a></nav>
+<p class="disclaimer">&copy; 2026 Sam Barth. Deal Math is part of the samcbarth.com network.</p>
+</div></footer>
+</body>
+</html>

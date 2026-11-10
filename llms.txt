@@ -1,0 +1,53 @@
+# Deal Math (realestate.samcbarth.com)
+
+> Real estate investing calculators and Texas and Oklahoma investor guides. Free calculators with formulas and worked examples; Texas and Oklahoma guides that cite the statutes; county pages built only from official sources with last-checked dates.
+
+## Calculators
+- [Cash flow and cap rate](https://realestate.samcbarth.com/calculators/rental-cash-flow-cap-rate/): Calculate monthly cash flow, cap rate, NOI, cash-on-cash return and DSCR for a rental property, with the formulas and a worked example.
+- [Rental yield](https://realestate.samcbarth.com/calculators/rental-yield/): Calculate gross and net rental yield from purchase price, rent and expenses, with the formulas, a worked example and how yield differs from cap rate.
+- [Mortgage payment](https://realestate.samcbarth.com/calculators/mortgage-payment/): Estimate a monthly mortgage payment including principal, interest, property tax, insurance, PMI and HOA, with the amortization formula and a worked example.
+- [Fix and flip](https://realestate.samcbarth.com/calculators/fix-and-flip/): Estimate fix-and-flip profit, cash needed and ROI from purchase price, rehab budget, holding costs, loan terms and ARV, with a worked example.
+- [BRRRR](https://realestate.samcbarth.com/calculators/brrrr/): Run a BRRRR deal (buy, rehab, rent, refinance, repeat): all-in cost, refinance loan, cash left in the deal, cash flow and cash-on-cash return.
+- [70% rule](https://realestate.samcbarth.com/calculators/70-percent-rule/): Find the maximum offer on a fix-and-flip using the 70% rule: ARV times 70% minus repairs. Adjust the percentage and see a worked example.
+- [Wholesale fee](https://realestate.samcbarth.com/calculators/wholesale-assignment-fee/): Estimate the maximum wholesale assignment fee: the end buyer's maximum price (ARV x rule % - repairs) minus your contract price, less your costs.
+- [TX and OK property tax](https://realestate.samcbarth.com/calculators/property-tax-texas-oklahoma/): Estimate yearly property tax in Texas (rates per $100, $140,000 school homestead exemption) or Oklahoma (assessment ratio, $1,000 homestead exemption, millage).
+
+## Guides
+- [How Texas Property Tax Sales Work for Investors](https://realestate.samcbarth.com/guides/texas/tax-sales/): Texas tax sales explained: who holds them, the first-Tuesday schedule, online auctions, minimum bids, struck-off resales and the 2-year or 180-day redemption period.
+- [Texas Foreclosure Process: How Nonjudicial Sales Work](https://realestate.samcbarth.com/guides/texas/foreclosure/): The Texas nonjudicial foreclosure process for investors: the 20-day notice to cure on homesteads, 21-day notice of sale, first-Tuesday courthouse auctions and what buyers should check.
+- [Buying Probate Property in Texas: What Investors Need to Know](https://realestate.samcbarth.com/guides/texas/probate-property/): How inherited property is transferred in Texas and what that means for buyers: the 4-year will deadline, muniment of title, small estate affidavits and affidavits of heirship.
+- [Texas Sheriff and Constable Sales: How They Work](https://realestate.samcbarth.com/guides/texas/sheriff-sales/): Texas sheriff and constable sales explained: what gets sold (execution and tax foreclosure sales), the first-Tuesday schedule, online auctions and a pre-bid checklist.
+- [How Oklahoma Tax Sales Work: The June County Resale](https://realestate.samcbarth.com/guides/oklahoma/tax-sales/): Oklahoma tax sales explained for investors: land delinquent 3 or more years goes to the county treasurer's resale on the second Monday of June, in person or online.
+- [Oklahoma Foreclosure Process: Judicial and Power of Sale](https://realestate.samcbarth.com/guides/oklahoma/foreclosure/): Oklahoma foreclosure for investors: judicial foreclosure and sheriff's sale, the Power of Sale Act's 35-day cure notice, the homestead election, appraisal and 30-day sale notice.
+- [Buying Probate Property in Oklahoma: What Investors Need to Know](https://realestate.samcbarth.com/guides/oklahoma/probate-property/): How inherited real estate is transferred in Oklahoma and what buyers should check: summary administration up to $200,000, the $50,000 small estate affidavit and who can sign the deed.
+- [Oklahoma Sheriff Sales: Appraisal, Minimum Bid and Confirmation](https://realestate.samcbarth.com/guides/oklahoma/sheriff-sales/): Oklahoma sheriff sales explained: court-ordered sales after foreclosure, appraisal by three disinterested people, the two-thirds minimum bid, 30-day published notice and court confirmation.
+
+## Counties
+- [Harris County, Texas](https://realestate.samcbarth.com/counties/texas/harris/)
+- [Dallas County, Texas](https://realestate.samcbarth.com/counties/texas/dallas/)
+- [Tarrant County, Texas](https://realestate.samcbarth.com/counties/texas/tarrant/)
+- [Bexar County, Texas](https://realestate.samcbarth.com/counties/texas/bexar/)
+- [Travis County, Texas](https://realestate.samcbarth.com/counties/texas/travis/)
+- [Collin County, Texas](https://realestate.samcbarth.com/counties/texas/collin/)
+- [Denton County, Texas](https://realestate.samcbarth.com/counties/texas/denton/)
+- [Fort Bend County, Texas](https://realestate.samcbarth.com/counties/texas/fort-bend/)
+- [Hidalgo County, Texas](https://realestate.samcbarth.com/counties/texas/hidalgo/)
+- [El Paso County, Texas](https://realestate.samcbarth.com/counties/texas/el-paso/)
+- [Montgomery County, Texas](https://realestate.samcbarth.com/counties/texas/montgomery/)
+- [Williamson County, Texas](https://realestate.samcbarth.com/counties/texas/williamson/)
+- [Oklahoma County, Oklahoma](https://realestate.samcbarth.com/counties/oklahoma/oklahoma/)
+- [Tulsa County, Oklahoma](https://realestate.samcbarth.com/counties/oklahoma/tulsa/)
+- [Cleveland County, Oklahoma](https://realestate.samcbarth.com/counties/oklahoma/cleveland/)
+- [Canadian County, Oklahoma](https://realestate.samcbarth.com/counties/oklahoma/canadian/)
+- [Comanche County, Oklahoma](https://realestate.samcbarth.com/counties/oklahoma/comanche/)
+- [Rogers County, Oklahoma](https://realestate.samcbarth.com/counties/oklahoma/rogers/)
+- [Wagoner County, Oklahoma](https://realestate.samcbarth.com/counties/oklahoma/wagoner/)
+- [Payne County, Oklahoma](https://realestate.samcbarth.com/counties/oklahoma/payne/)
+
+## News
+- [Deal Math Market Brief](https://realestate.samcbarth.com/news/): JSON Feed at https://realestate.samcbarth.com/news/feed.json
+
+## Policies
+- [About](https://realestate.samcbarth.com/about/)
+- [Privacy](https://realestate.samcbarth.com/privacy/)
+- [Terms](https://realestate.samcbarth.com/terms/)

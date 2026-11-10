@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://realestate.samcbarth.com/sitemap.xml

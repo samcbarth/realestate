@@ -1,0 +1,101 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Deal Math Market Brief (Deal Math)",
+  "home_page_url": "https://realestate.samcbarth.com/news/",
+  "feed_url": "https://realestate.samcbarth.com/news/feed.json",
+  "description": "Sourced real estate news for investors from realestate.samcbarth.com.",
+  "language": "en-US",
+  "icon": "https://realestate.samcbarth.com/assets/og/default.jpg",
+  "authors": [
+    {
+      "name": "Sam Barth",
+      "url": "https://samcbarth.com"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://realestate.samcbarth.com/news/mortgage-rates-fall-third-week/",
+      "url": "https://realestate.samcbarth.com/news/mortgage-rates-fall-third-week/",
+      "title": "30-year mortgage rate eases to 7.18%, third weekly decline",
+      "summary": "Freddie Mac's weekly survey put the average 30-year fixed rate at 7.18% on November 5, down from 7.24% a week earlier but up from 6.22% a year ago.",
+      "content_text": "Freddie Mac's weekly survey put the average 30-year fixed rate at 7.18% on November 5, down from 7.24% a week earlier but up from 6.22% a year ago.",
+      "image": "https://realestate.samcbarth.com/assets/og/news-mortgage-rates-fall-third-week.jpg",
+      "date_published": "2026-11-05T12:00:00-06:00",
+      "tags": [
+        "mortgage rates",
+        "national"
+      ],
+      "external_url": "https://www.freddiemac.com/pmms"
+    },
+    {
+      "id": "https://realestate.samcbarth.com/news/oklahoma-sq-847-fails/",
+      "url": "https://realestate.samcbarth.com/news/oklahoma-sq-847-fails/",
+      "title": "Oklahoma voters reject SQ 847, keeping the 3% and 5% property value caps",
+      "summary": "State Question 847, which would have cut Oklahoma's yearly cap on taxable value growth from 3% to 1.75% for homesteads and ag land and from 5% to 4% for other property, failed on November 3.",
+      "content_text": "State Question 847, which would have cut Oklahoma's yearly cap on taxable value growth from 3% to 1.75% for homesteads and ag land and from 5% to 4% for other property, failed on November 3.",
+      "image": "https://realestate.samcbarth.com/assets/og/news-oklahoma-sq-847-fails.jpg",
+      "date_published": "2026-11-04T12:00:00-06:00",
+      "tags": [
+        "Oklahoma",
+        "property tax"
+      ],
+      "external_url": "https://www.news9.com/oklahoma-elections/oklahoma-state-question-847-results"
+    },
+    {
+      "id": "https://realestate.samcbarth.com/news/fed-holds-rates/",
+      "url": "https://realestate.samcbarth.com/news/fed-holds-rates/",
+      "title": "Fed holds its target range at 3.75% to 4%, with two votes for a hike",
+      "summary": "The Federal Open Market Committee left the federal funds target range at 3-3/4 to 4 percent on October 28; Lisa Cook and Beth Hammack dissented in favor of a quarter-point increase.",
+      "content_text": "The Federal Open Market Committee left the federal funds target range at 3-3/4 to 4 percent on October 28; Lisa Cook and Beth Hammack dissented in favor of a quarter-point increase.",
+      "image": "https://realestate.samcbarth.com/assets/og/news-fed-holds-rates.jpg",
+      "date_published": "2026-10-28T12:00:00-06:00",
+      "tags": [
+        "interest rates",
+        "national"
+      ],
+      "external_url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20261028a1.pdf"
+    },
+    {
+      "id": "https://realestate.samcbarth.com/news/texas-home-sales-slow-august/",
+      "url": "https://realestate.samcbarth.com/news/texas-home-sales-slow-august/",
+      "title": "Texas home sales fell 4.7% from a year earlier in August as inventory stayed high",
+      "summary": "The Texas Real Estate Research Center reported 28,740 closed sales in August, down 4.7% year over year, a $330,000 median price and 5.3 months of inventory.",
+      "content_text": "The Texas Real Estate Research Center reported 28,740 closed sales in August, down 4.7% year over year, a $330,000 median price and 5.3 months of inventory.",
+      "image": "https://realestate.samcbarth.com/assets/og/news-texas-home-sales-slow-august.jpg",
+      "date_published": "2026-10-23T12:00:00-06:00",
+      "tags": [
+        "Texas",
+        "housing market"
+      ],
+      "external_url": "https://trerc.tamu.edu/reports/texas-housing-insight-october-2026/"
+    },
+    {
+      "id": "https://realestate.samcbarth.com/news/housing-starts-september/",
+      "url": "https://realestate.samcbarth.com/news/housing-starts-september/",
+      "title": "U.S. housing starts fell 5.2% in September to a 1.22 million pace",
+      "summary": "Census Bureau data showed September housing starts at a seasonally adjusted annual rate of 1,221,000, down 5.2% from August and 7.4% from a year earlier; permits were 1,400,000.",
+      "content_text": "Census Bureau data showed September housing starts at a seasonally adjusted annual rate of 1,221,000, down 5.2% from August and 7.4% from a year earlier; permits were 1,400,000.",
+      "image": "https://realestate.samcbarth.com/assets/og/news-housing-starts-september.jpg",
+      "date_published": "2026-10-20T12:00:00-06:00",
+      "tags": [
+        "construction",
+        "national"
+      ],
+      "external_url": "https://www.census.gov/construction/nrc/current/index.html"
+    },
+    {
+      "id": "https://realestate.samcbarth.com/news/existing-home-sales-september/",
+      "url": "https://realestate.samcbarth.com/news/existing-home-sales-september/",
+      "title": "Existing-home sales rose 1.5% in September; median price $417,500",
+      "summary": "NAR reported existing-home sales at a 3.99 million annual rate in September, up 1.5% from August and down 2.2% from a year earlier, with a 4.8-month supply.",
+      "content_text": "NAR reported existing-home sales at a 3.99 million annual rate in September, up 1.5% from August and down 2.2% from a year earlier, with a 4.8-month supply.",
+      "image": "https://realestate.samcbarth.com/assets/og/news-existing-home-sales-september.jpg",
+      "date_published": "2026-10-13T12:00:00-06:00",
+      "tags": [
+        "housing market",
+        "national"
+      ],
+      "external_url": "https://www.nar.realtor/newsroom/existing-home-sales-increased-1-5-in-september-according-to-nar-report"
+    }
+  ]
+}

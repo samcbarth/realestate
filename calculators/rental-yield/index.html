@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-KMS4X55L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rental Yield Calculator: Gross and Net Yield | Deal Math</title>
+<meta name="description" content="Calculate gross and net rental yield from purchase price, rent and expenses, with the formulas, a worked example and how yield differs from cap rate.">
+<link rel="canonical" href="https://realestate.samcbarth.com/calculators/rental-yield/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Deal Math">
+<meta property="og:title" content="Rental Yield Calculator: Gross and Net Yield">
+<meta property="og:description" content="Calculate gross and net rental yield from purchase price, rent and expenses, with the formulas, a worked example and how yield differs from cap rate.">
+<meta property="og:url" content="https://realestate.samcbarth.com/calculators/rental-yield/">
+<meta property="og:image" content="https://realestate.samcbarth.com/assets/og/default.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1f6f4a">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="Deal Math" href="/rss.xml">
+<link rel="alternate" type="application/feed+json" title="Deal Math Market Brief" href="/news/feed.json">
+<link rel="stylesheet" href="/assets/style.css">
+<script src="/assets/config.js"></script>
+<script src="/assets/site.js" defer></script>
+<script src="/assets/calc.js" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Rental yield calculator", "applicationCategory": "FinanceApplication", "operatingSystem": "Any (web browser)", "url": "https://realestate.samcbarth.com/calculators/rental-yield/", "description": "Calculate gross and net rental yield from purchase price, rent and expenses, with the formulas, a worked example and how yield differs from cap rate.", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Rental Yield Calculator: Gross and Net Yield", "description": "Calculate gross and net rental yield from purchase price, rent and expenses, with the formulas, a worked example and how yield differs from cap rate.", "url": "https://realestate.samcbarth.com/calculators/rental-yield/", "mainEntityOfPage": "https://realestate.samcbarth.com/calculators/rental-yield/", "datePublished": "2026-11-09", "dateModified": "2026-11-09", "author": {"@type": "Person", "name": "Sam Barth", "url": "https://samcbarth.com"}, "publisher": {"@type": "Organization", "name": "Deal Math", "url": "https://realestate.samcbarth.com/"}, "image": "https://realestate.samcbarth.com/assets/og/default.jpg"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the difference between rental yield and cap rate?", "acceptedAnswer": {"@type": "Answer", "text": "They are close. Net yield and cap rate both compare income after operating expenses with the cost of the property. On this site, net yield divides by price plus purchase costs, while cap rate divides by price alone, so net yield is slightly lower for the same deal."}}, {"@type": "Question", "name": "Should the mortgage be included in operating expenses?", "acceptedAnswer": {"@type": "Answer", "text": "No. Yield measures the property, not the financing. To see the effect of a loan, use the cash flow calculator, which reports cash flow and cash-on-cash return."}}, {"@type": "Question", "name": "What counts as an operating expense?", "acceptedAnswer": {"@type": "Answer", "text": "Property tax, insurance, HOA dues, repairs and maintenance, property management, owner-paid utilities and a reserve for big replacements such as roofs and HVAC. Do not include mortgage principal or interest."}}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Deal Math", "item": "https://realestate.samcbarth.com/"}, {"@type": "ListItem", "position": 2, "name": "Calculators", "item": "https://realestate.samcbarth.com/calculators/"}, {"@type": "ListItem", "position": 3, "name": "Rental yield", "item": "https://realestate.samcbarth.com/calculators/rental-yield/"}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head"><div class="wrap">
+<a class="logo" href="/"><span class="logo-mark" aria-hidden="true">DM</span>Deal Math</a>
+<nav class="nav" aria-label="Main"><a href="/calculators/" aria-current="page">Calculators</a><a href="/guides/texas/">Texas guides</a><a href="/guides/oklahoma/">Oklahoma guides</a><a href="/counties/">Counties</a><a href="/news/">News</a><a href="/about/">About</a><button class="theme-toggle" type="button" aria-label="Toggle dark mode">Theme</button></nav>
+</div></header>
+<div class="wrap layout has-side"><main id="main" class="main"><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Deal Math</a> / <a href="/calculators/">Calculators</a> / <span>Rental yield</span></nav><article class="prose-wrap"><h1>Rental yield calculator</h1><p class="answer">Gross rental yield is yearly rent divided by the purchase price. Net rental yield subtracts yearly operating expenses from rent and divides by the price plus purchase costs. Gross yield is a quick screen; net yield is closer to what the property actually earns.</p><section class="calc" aria-label="Rental yield calculator">
+<form data-calc="yield" data-results="yield-results" novalidate>
+<h2>Rental yield inputs</h2>
+<div class="fields"><div class="field"><label for="yield-price">Purchase price</label><div class="inp"><span>$</span><input type="number" id="yield-price" name="price" value="250000" step="1000" inputmode="decimal"></div></div><div class="field"><label for="yield-costs">Purchase costs</label><div class="inp"><span>$</span><input type="number" id="yield-costs" name="costs" value="7500" step="100" inputmode="decimal"></div></div><div class="field"><label for="yield-rent">Monthly rent</label><div class="inp"><span>$</span><input type="number" id="yield-rent" name="rent" value="2200" step="25" inputmode="decimal"></div></div><div class="field"><label for="yield-expenses_yr">Annual operating expenses</label><div class="inp"><span>$</span><input type="number" id="yield-expenses_yr" name="expenses_yr" value="9000" step="100" inputmode="decimal"></div></div></div>
+<div class="calc-actions"><button class="btn" type="reset">Reset to example</button></div>
+</form>
+<div class="results" id="yield-results" aria-live="polite"><h2>Results</h2><div class="result key"><span>Gross rental yield</span><b data-out="gross_yield" data-fmt="pct">10.56%</b></div><div class="result key"><span>Net rental yield</span><b data-out="net_yield" data-fmt="pct">6.76%</b></div><div class="result"><span>Annual rent</span><b data-out="annual_rent" data-fmt="money">$26,400</b></div><div class="result"><span>Net income before mortgage</span><b data-out="net_income" data-fmt="money">$17,400</b></div></div>
+</section><div class="ad-slot" data-ad="after_intro"></div><div class="prose"><h2>How do you calculate gross rental yield?</h2>
+<p>Gross yield = (monthly rent x 12) / purchase price x 100. It is fast and needs only two numbers, which makes it useful for sorting a long list of listings. It ignores every expense, so two properties with the same gross yield can perform very differently.</p>
+
+<h2>How do you calculate net rental yield?</h2>
+<p>Net yield = (yearly rent - yearly operating expenses) / (purchase price + purchase costs) x 100. Including purchase costs, such as closing costs and any immediate repairs, gives a truer picture of the money tied up in the property.</p>
+<div class="ad-slot" data-ad="mid_content"></div>
+<h2>Worked example</h2>
+<p>With the calculator's example values, a property bought for $250,000 plus $7,500 in purchase costs rents for $2,200 a month:</p>
+<ul>
+<li>Yearly rent: $26,400, so gross yield is 10.56%.</li>
+<li>Subtracting $9,000 of yearly operating expenses leaves $17,400.</li>
+<li>Net yield: $17,400 / $250,000 plus $7,500 = 6.76%.</li>
+</ul>
+<p>The gap between the two numbers is the cost of running the property. If you only ever look at gross yield, that gap is the part you are not seeing.</p>
+
+<h2>When to use yield instead of cash flow</h2>
+<p>Use yield to compare properties quickly, before you have loan terms. Once you know how you will finance the purchase, switch to the <a href="/calculators/rental-cash-flow-cap-rate/">cash flow and cap rate calculator</a> to see the monthly result after the mortgage.</p><section class="faq"><h2>Frequently asked questions</h2><h3>What is the difference between rental yield and cap rate?</h3><p>They are close. Net yield and cap rate both compare income after operating expenses with the cost of the property. On this site, net yield divides by price plus purchase costs, while cap rate divides by price alone, so net yield is slightly lower for the same deal.</p><h3>Should the mortgage be included in operating expenses?</h3><p>No. Yield measures the property, not the financing. To see the effect of a loan, use the cash flow calculator, which reports cash flow and cash-on-cash return.</p><h3>What counts as an operating expense?</h3><p>Property tax, insurance, HOA dues, repairs and maintenance, property management, owner-paid utilities and a reserve for big replacements such as roofs and HVAC. Do not include mortgage principal or interest.</p></section><h2>Related</h2><div class="grid"><a class="card" href="/calculators/rental-cash-flow-cap-rate/"><h3>Rental property cash flow and cap rate calculator</h3><p>Calculate monthly cash flow, cap rate, NOI, cash-on-cash return and DSCR for a rental property, with the formulas and a worked example.</p></a><a class="card" href="/calculators/mortgage-payment/"><h3>Mortgage payment calculator</h3><p>Estimate a monthly mortgage payment including principal, interest, property tax, insurance, PMI and HOA, with the amortization formula and a worked example.</p></a><a class="card" href="/calculators/property-tax-texas-oklahoma/"><h3>Property tax calculator for Texas and Oklahoma</h3><p>Estimate yearly property tax in Texas (rates per $100, $140,000 school homestead exemption) or Oklahoma (assessment ratio, $1,000 homestead exemption, millage).</p></a></div><p class="meta">Last updated 2026-11-09. Results are estimates for planning; they are not lender quotes or tax bills.</p></div><div class="ad-slot" data-ad="end_content"></div></article></main><aside class="side"><div class="sticky"><div class="note"><strong>Calculators</strong><ul><li><a href="/calculators/rental-cash-flow-cap-rate/">Cash flow and cap rate</a></li><li><a href="/calculators/rental-yield/">Rental yield</a></li><li><a href="/calculators/mortgage-payment/">Mortgage payment</a></li><li><a href="/calculators/fix-and-flip/">Fix and flip</a></li><li><a href="/calculators/brrrr/">BRRRR</a></li><li><a href="/calculators/70-percent-rule/">70% rule</a></li><li><a href="/calculators/wholesale-assignment-fee/">Wholesale fee</a></li><li><a href="/calculators/property-tax-texas-oklahoma/">TX and OK property tax</a></li></ul></div><div class="ad-slot" data-ad="sidebar"></div></div></aside></div><footer class="site-foot"><div class="wrap">
+<div class="foot-cols">
+<div><h4>Deal Math</h4><p>Real estate investing calculators and Texas and Oklahoma investor guides.</p></div>
+<div><h4>Calculators</h4><ul>
+<li><a href="/calculators/rental-cash-flow-cap-rate/">Cash flow and cap rate</a></li>
+<li><a href="/calculators/fix-and-flip/">Fix and flip</a></li>
+<li><a href="/calculators/brrrr/">BRRRR</a></li>
+<li><a href="/calculators/70-percent-rule/">70% rule</a></li>
+<li><a href="/calculators/">All calculators</a></li></ul></div>
+<div><h4>Guides</h4><ul>
+<li><a href="/guides/texas/">Texas investor guides</a></li>
+<li><a href="/guides/oklahoma/">Oklahoma investor guides</a></li>
+<li><a href="/counties/">County resources</a></li>
+<li><a href="/news/">Deal Math Market Brief</a></li></ul></div>
+<div><h4>Site</h4><ul>
+<li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li>
+<li><a href="/privacy/">Privacy Policy</a></li><li><a href="/terms/">Terms</a></li>
+<li><a href="/rss.xml">RSS</a></li></ul></div>
+</div>
+<p class="disclaimer">Educational information only, not legal, tax, or financial advice. Laws and county procedures change; confirm with the official source and a licensed professional before you bid, buy, or sign.</p>
+<nav class="network" aria-label="samcbarth.com network"><strong>samcbarth.com network:</strong> <a href="https://realestate.samcbarth.com/" aria-current="true">Real Estate</a> <a href="https://tools.samcbarth.com/">Tools</a> <a href="https://games.samcbarth.com/">Games</a> <a href="https://streaming.samcbarth.com/">Streaming</a> <a href="https://homerepair.samcbarth.com/">Home Repair</a> <a href="https://deals.samcbarth.com/">Deals</a> <a href="https://news.samcbarth.com/">News</a></nav>
+<p class="disclaimer">&copy; 2026 Sam Barth. Deal Math is part of the samcbarth.com network.</p>
+</div></footer>
+</body>
+</html>

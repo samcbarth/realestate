@@ -1,0 +1,21 @@
+{
+  "title": "U.S. housing starts fell 5.2% in September to a 1.22 million pace",
+  "date": "2026-10-20",
+  "summary": "Census Bureau data showed September housing starts at a seasonally adjusted annual rate of 1,221,000, down 5.2% from August and 7.4% from a year earlier; permits were 1,400,000.",
+  "body": [
+    "Privately owned housing starts ran at a seasonally adjusted annual rate of 1,221,000 in September 2026, 5.2% below the revised August estimate of 1,288,000 and 7.4% below September 2025, the Census Bureau reported on October 20.",
+    "Single-family starts were 859,000, down 4.6% from August. Building permits, an early signal of future construction, were 1,400,000, about flat from August and 3.0% below a year earlier. Single-family permits fell 4.0% to 845,000.",
+    "Completions rose 2.2% from August to 1,192,000 but were 14.0% lower than a year earlier. The Census Bureau notes that several of these monthly changes are within the survey's margin of error."
+  ],
+  "why": "Fewer new homes being started means less new supply competing with resale houses and rentals in coming years. If you invest in fast-growing suburbs, watch local permit counts alongside these national numbers.",
+  "source_name": "U.S. Census Bureau: New Residential Construction, September 2026",
+  "source_url": "https://www.census.gov/construction/nrc/current/index.html",
+  "tags": [
+    "construction",
+    "national"
+  ],
+  "related": [
+    "/calculators/rental-cash-flow-cap-rate/",
+    "/counties/"
+  ]
+}

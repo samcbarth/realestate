@@ -1,0 +1,25 @@
+{
+  "title": "30-year mortgage rate eases to 7.18%, third weekly decline",
+  "date": "2026-11-05",
+  "summary": "Freddie Mac's weekly survey put the average 30-year fixed rate at 7.18% on November 5, down from 7.24% a week earlier but up from 6.22% a year ago.",
+  "body": [
+    "The average 30-year fixed mortgage rate fell to 7.18% in Freddie Mac's Primary Mortgage Market Survey for the week of November 5, 2026, down from 7.24% the week before. It was the third weekly decline in a row.",
+    "The 15-year fixed rate averaged 6.57%, down from 6.60% the prior week. A year earlier the two rates were 6.22% and 5.50%, so borrowing is still about a percentage point more expensive than in late 2025.",
+    "Freddie Mac's survey reports national averages for conventional, conforming loans. Individual quotes depend on credit, down payment and loan type."
+  ],
+  "quote": {
+    "text": "Mortgage rates continued their downward trajectory this week",
+    "by": "Freddie Mac, November 5, 2026 release"
+  },
+  "why": "A few tenths of a point changes the payment on every financed deal. On a $280,000 loan over 30 years, the drop from 7.24% to 7.18% lowers principal and interest by roughly $11 a month. Re-run your numbers in the <a href=\"/calculators/mortgage-payment/\">mortgage payment calculator</a> and the <a href=\"/calculators/rental-cash-flow-cap-rate/\">cash flow calculator</a> with this week's rate.",
+  "source_name": "Freddie Mac Primary Mortgage Market Survey",
+  "source_url": "https://www.freddiemac.com/pmms",
+  "tags": [
+    "mortgage rates",
+    "national"
+  ],
+  "related": [
+    "/calculators/mortgage-payment/",
+    "/calculators/rental-cash-flow-cap-rate/"
+  ]
+}
