@@ -1,0 +1,23 @@
+{
+  "SITE_NAME": "Deal Math",
+  "TAGLINE": "Real estate investing calculators and Texas and Oklahoma investor guides",
+  "NEWS_NAME": "Deal Math Market Brief",
+  "BASE": "https://realestate.samcbarth.com",
+  "LANG": "en-US",
+
+  "ADSENSE_CLIENT": "",
+  "AD_SLOTS": {
+    "after_intro": "",
+    "mid_content": "",
+    "end_content": "",
+    "sidebar": ""
+  },
+  "AMAZON_TAG": "",
+
+  "TXOK_DIRECTORY_URL": "",
+  "TXOK_DIRECTORY_LABEL": "Search the TX/OK distressed property directory",
+
+  "HUBSPOT_PORTAL": "20693956",
+  "HUBSPOT_FORM_ID": "",
+  "CONTACT_EMAIL": ""
+}

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "realestate",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8821", "--directory", "C:/SamSites/realestate"],
+      "port": 8821
+    }
+  ]
+}
